@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-23T03:53:41.394Z",
+  "seedNote": "Bootstrap from data accurate/01-verified. Published sources only — not live AIS/telemetry.",
+  "ports": [
+    {
+      "id": "INNSA",
+      "name": "Jawaharlal Nehru Port (JNPT)",
+      "aliases": [
+        "JNPT",
+        "Nhava Sheva",
+        "JNPA",
+        "Jawaharlal Nehru Port"
+      ],
+      "isMajorPort": true,
+      "state": "Maharashtra",
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "INMUN",
+      "name": "Mundra Port",
+      "aliases": [
+        "Mundra",
+        "APSEZ Mundra"
+      ],
+      "isMajorPort": false,
+      "state": "Gujarat",
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "INMAA",
+      "name": "Chennai Port",
+      "aliases": [
+        "Chennai"
+      ],
+      "isMajorPort": true,
+      "state": "Tamil Nadu",
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "INCOK",
+      "name": "Cochin Port",
+      "aliases": [
+        "Cochin",
+        "Kochi"
+      ],
+      "isMajorPort": true,
+      "state": "Kerala",
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "INVTZ",
+      "name": "Visakhapatnam Port",
+      "aliases": [
+        "Vizag",
+        "Visakhapatnam"
+      ],
+      "isMajorPort": true,
+      "state": "Andhra Pradesh",
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "INCCU",
+      "name": "Syama Prasad Mookerjee Port (Kolkata)",
+      "aliases": [
+        "Kolkata",
+        "Kolkata Port",
+        "Syama Prasad Mookerjee Port"
+      ],
+      "isMajorPort": true,
+      "state": "West Bengal",
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "INDEE",
+      "name": "Deendayal Port",
+      "aliases": [
+        "Deendayal",
+        "Kandla",
+        "Deendayal Port"
+      ],
+      "isMajorPort": true,
+      "state": "Gujarat",
+      "trustTier": "VERIFIED"
+    }
+  ],
+  "carriers": [
+    {
+      "id": "MAERSK",
+      "name": "Maersk",
+      "aliases": [
+        "Maersk Line"
+      ],
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "HAPAG",
+      "name": "Hapag-Lloyd",
+      "aliases": [
+        "Hapag",
+        "Hapag Lloyd"
+      ],
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "MSC",
+      "name": "MSC",
+      "aliases": [
+        "Mediterranean Shipping Company"
+      ],
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "CMA",
+      "name": "CMA CGM",
+      "aliases": [
+        "CMA",
+        "CMA-CGM"
+      ],
+      "trustTier": "VERIFIED"
+    },
+    {
+      "id": "ONE",
+      "name": "Ocean Network Express",
+      "aliases": [
+        "ONE"
+      ],
+      "trustTier": "SECONDARY"
+    },
+    {
+      "id": "ZIM",
+      "name": "ZIM",
+      "aliases": [
+        "Zim Integrated Shipping"
+      ],
+      "trustTier": "PROVISIONAL"
+    }
+  ],
+  "facts": [
+    {
+      "factId": "tariff:MAERSK:export:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2026-03-16",
+      "effectiveFrom": "2026-04-06",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/maersk_india_freetime_VERIFIED.json",
+        "publisher": "Maersk (official customer advisory)",
+        "proofFiles": [],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.maersk.com/news/articles/2026/03/16/import-export-free-time-india-world",
+        "note": "Published India from/to World free-time / compensation slabs. Not a private contract rate. Not port-specific."
+      },
+      "carrierId": "MAERSK",
+      "direction": "export",
+      "equipment": "dry",
+      "freeDays": 7,
+      "currency": "INR",
+      "slabs": [
+        {
+          "label": "Day 8 to 14",
+          "rate20PerDay": 2850,
+          "rate40PerDay": 5700,
+          "currency": "INR",
+          "dayFrom": 8,
+          "dayTo": 14,
+          "asPrinted": "2,850 / 5,700"
+        },
+        {
+          "label": "Day 15 to 18",
+          "rate20PerDay": 5700,
+          "rate40PerDay": 11400,
+          "currency": "INR",
+          "dayFrom": 15,
+          "dayTo": 18,
+          "asPrinted": "5,700 / 11,400"
+        },
+        {
+          "label": "Day 18 onwards",
+          "rate20PerDay": 7100,
+          "rate40PerDay": 14200,
+          "currency": "INR",
+          "dayFrom": 18,
+          "dayTo": null,
+          "asPrinted": "7,100 / 14,200"
+        }
+      ],
+      "documentTitle": "Import & Export Free Time - India from/to World",
+      "scopeNote": "Published India from/to World free-time / compensation slabs. Not a private contract rate. Not port-specific."
+    },
+    {
+      "factId": "tariff:HAPAG:export:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2026-07-01",
+      "effectiveFrom": "2026-07-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/hapag_india_detention_VERIFIED.json",
+        "publisher": "Hapag-Lloyd",
+        "proofFiles": [
+          "proof/carrier-pdfs/hapag-IN_MHO_MHD_Q3.pdf",
+          "proof/carrier-pdfs/hapag-IN_MHO_MHD_Q3.txt"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/IN_MHO_MHD_Q3.pdf"
+      },
+      "carrierId": "HAPAG",
+      "direction": "export",
+      "equipment": "dry",
+      "freeDays": 4,
+      "currency": "INR",
+      "slabs": [
+        {
+          "label": "1st Period",
+          "dayFrom": 5,
+          "dayTo": 10,
+          "rate20PerDay": 5988,
+          "rate40PerDay": 11643,
+          "currency": "INR"
+        },
+        {
+          "label": "2nd Period",
+          "dayFrom": 11,
+          "dayTo": 14,
+          "rate20PerDay": 8595,
+          "rate40PerDay": 17190,
+          "currency": "INR"
+        },
+        {
+          "label": "3rd Period",
+          "dayFrom": 15,
+          "dayTo": 17,
+          "rate20PerDay": 9045,
+          "rate40PerDay": 18090,
+          "currency": "INR"
+        },
+        {
+          "label": "Thereafter",
+          "dayFrom": 18,
+          "dayTo": null,
+          "rate20PerDay": 11173,
+          "rate40PerDay": 22347,
+          "currency": "INR"
+        }
+      ],
+      "documentTitle": "India Import/Export Detention (MHO/MHD)"
+    },
+    {
+      "factId": "tariff:HAPAG:import:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2026-07-01",
+      "effectiveFrom": "2026-07-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/hapag_india_detention_VERIFIED.json",
+        "publisher": "Hapag-Lloyd",
+        "proofFiles": [
+          "proof/carrier-pdfs/hapag-IN_MHO_MHD_Q3.pdf",
+          "proof/carrier-pdfs/hapag-IN_MHO_MHD_Q3.txt"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/IN_MHO_MHD_Q3.pdf"
+      },
+      "carrierId": "HAPAG",
+      "direction": "import",
+      "equipment": "dry",
+      "freeDays": 7,
+      "currency": "INR",
+      "slabs": [
+        {
+          "label": "1st Period",
+          "dayFrom": 8,
+          "dayTo": 14,
+          "rate20PerDay": 3040,
+          "rate40PerDay": 6080,
+          "currency": "INR"
+        },
+        {
+          "label": "2nd Period",
+          "dayFrom": 15,
+          "dayTo": 21,
+          "rate20PerDay": 5890,
+          "rate40PerDay": 11780,
+          "currency": "INR"
+        },
+        {
+          "label": "Thereafter",
+          "dayFrom": 22,
+          "dayTo": null,
+          "rate20PerDay": 7338,
+          "rate40PerDay": 14677,
+          "currency": "INR"
+        }
+      ],
+      "documentTitle": "India Import/Export Detention (MHO/MHD)"
+    },
+    {
+      "factId": "tariff:MSC:export:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2023-01-01",
+      "effectiveFrom": "2023-01-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/msc_india_export_detention_VERIFIED.json",
+        "publisher": "MSC",
+        "proofFiles": [
+          "proof/carrier-pdfs/msc-india-export-detention.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.msccargo.cn/-/media/files/msc-cargo/local-information/asia-pacific/india/all-india-export-detention-002.pdf"
+      },
+      "carrierId": "MSC",
+      "direction": "export",
+      "equipment": "dry",
+      "freeDays": 7,
+      "currency": "USD",
+      "slabs": [
+        {
+          "label": "Period 1 (7d)",
+          "dayFrom": 8,
+          "dayTo": 14,
+          "rate20PerDay": 27,
+          "rate40PerDay": 54,
+          "currency": "USD"
+        },
+        {
+          "label": "Period 2 (7d)",
+          "dayFrom": 15,
+          "dayTo": 21,
+          "rate20PerDay": 54,
+          "rate40PerDay": 108,
+          "currency": "USD"
+        },
+        {
+          "label": "Thereafter",
+          "dayFrom": 22,
+          "dayTo": null,
+          "rate20PerDay": 71,
+          "rate40PerDay": 142,
+          "currency": "USD"
+        }
+      ],
+      "documentTitle": "All India Export Detention"
+    },
+    {
+      "factId": "tariff:MSC:import:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2025-07-01",
+      "effectiveFrom": "2025-07-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/msc_india_import_detention_VERIFIED.json",
+        "publisher": "MSC",
+        "proofFiles": [
+          "proof/carrier-pdfs/msc-import-detention-msccargo-cn.pdf",
+          "proof/carrier-pdfs/msc-import-detention-msccargo-cn.txt"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.msccargo.cn/-/media/files/msc-cargo/local-information/asia-pacific/india/import-detention.pdf"
+      },
+      "carrierId": "MSC",
+      "direction": "import",
+      "equipment": "dry",
+      "freeDays": 4,
+      "currency": "USD",
+      "slabs": [
+        {
+          "label": "5-10",
+          "rate20PerDay": 63,
+          "rate40PerDay": 126,
+          "currency": "USD",
+          "asPrinted": "$63 / $126"
+        },
+        {
+          "label": "11-16",
+          "rate20PerDay": 89,
+          "rate40PerDay": 178,
+          "currency": "USD",
+          "asPrinted": "$89 / $178"
+        },
+        {
+          "label": "17 and above",
+          "rate20PerDay": 117,
+          "rate40PerDay": 234,
+          "currency": "USD",
+          "asPrinted": "$117 / $234"
+        }
+      ],
+      "documentTitle": "India Import Detention"
+    },
+    {
+      "factId": "tariff:CMA:export:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2024-07-01",
+      "effectiveFrom": "2024-07-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/cma_india_export_detention_VERIFIED.json",
+        "publisher": "CMA CGM",
+        "proofFiles": [
+          "proof/carrier-pdfs/cma-export-detention-2026.pdf",
+          "proof/carrier-pdfs/cma-export-detention-2026.txt"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.cma-cgm.com/assets/public/documents/Export%20Detention%20Charges%2016.1.26.pdf"
+      },
+      "carrierId": "CMA",
+      "direction": "export",
+      "equipment": "dry",
+      "freeDays": 10,
+      "currency": "USD",
+      "slabs": [
+        {
+          "label": "11 to 17 days",
+          "rate20PerDay": 36,
+          "rate40PerDay": 72,
+          "currency": "USD"
+        },
+        {
+          "label": "18 to 24 days",
+          "rate20PerDay": 66,
+          "rate40PerDay": 132,
+          "currency": "USD"
+        },
+        {
+          "label": "25 days onwards",
+          "rate20PerDay": 83,
+          "rate40PerDay": 166,
+          "currency": "USD"
+        }
+      ],
+      "documentTitle": "Export Detention Charges — Export Containers"
+    },
+    {
+      "factId": "tariff:CMA:import:dry:v1",
+      "kind": "tariff",
+      "version": 1,
+      "asOf": "2026-01-17",
+      "effectiveFrom": "2026-01-17",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/cma_india_import_detention_VERIFIED.json",
+        "publisher": "CMA CGM",
+        "proofFiles": [
+          "proof/carrier-pdfs/cma-import-dem-det-2026.pdf",
+          "proof/carrier-pdfs/cma-import-dem-det-2026.txt"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.cma-cgm.com/assets/public/documents/Import%20Demurrage%20%20Detention%20Charges%20-%20Revised%20as%20on%2017th%20Jan%202026_0.pdf"
+      },
+      "carrierId": "CMA",
+      "direction": "import",
+      "equipment": "dry",
+      "freeDays": 4,
+      "currency": "USD",
+      "slabs": [
+        {
+          "label": "05 to 10 days",
+          "rate20PerDay": 64,
+          "rate40PerDay": 128,
+          "currency": "USD"
+        },
+        {
+          "label": "11 to 17 days",
+          "rate20PerDay": 94,
+          "rate40PerDay": 188,
+          "currency": "USD"
+        },
+        {
+          "label": "18th day onwards",
+          "rate20PerDay": 119,
+          "rate40PerDay": 238,
+          "currency": "USD"
+        }
+      ],
+      "documentTitle": "Import Container Demurrage & Detention Charges"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2024-10:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2024-10-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/id108_PW0001_Nov2024.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2024-10",
+      "importPortHours": 20.3,
+      "exportPortHours": 77.1,
+      "importCfsHours": 80.1,
+      "exportCfsHours": 64.5,
+      "importIcdHours": 143.7,
+      "exportIcdHours": 107.4,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2024-11:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2024-11-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/id108_PW0001_Nov2024.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2024-11",
+      "importPortHours": 20.8,
+      "exportPortHours": 77.9,
+      "importCfsHours": 90.3,
+      "exportCfsHours": 67.4,
+      "importIcdHours": 134.7,
+      "exportIcdHours": 110.4,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2024-12:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2024-12-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/id110_PW0001_Jan2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2024-12",
+      "importPortHours": 19,
+      "exportPortHours": 74,
+      "importCfsHours": 78,
+      "exportCfsHours": 67.3,
+      "importIcdHours": 120.8,
+      "exportIcdHours": 105.2,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-01:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-01-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/id110_PW0001_Jan2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-01",
+      "importPortHours": 22.6,
+      "exportPortHours": 77.2,
+      "importCfsHours": 82.7,
+      "exportCfsHours": 60.9,
+      "importIcdHours": 150.8,
+      "exportIcdHours": 104,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-02:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-02-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/PW0001_March_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-02",
+      "importPortHours": 25.1,
+      "exportPortHours": 72.8,
+      "importCfsHours": 76.3,
+      "exportCfsHours": 67.9,
+      "importIcdHours": 162.9,
+      "exportIcdHours": 103.4,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-03:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-03-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/PW0001.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-03",
+      "importPortHours": 28.3,
+      "exportPortHours": 74.4,
+      "importCfsHours": 79.6,
+      "exportCfsHours": 61.8,
+      "importIcdHours": 157,
+      "exportIcdHours": 108.5,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-04:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-04-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/May_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-04",
+      "importPortHours": 24.2,
+      "exportPortHours": 73.3,
+      "importCfsHours": 81.9,
+      "exportCfsHours": 65.2,
+      "importIcdHours": 168.1,
+      "exportIcdHours": 109,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-05:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/May_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-05",
+      "importPortHours": 28.1,
+      "exportPortHours": 74.4,
+      "importCfsHours": 84.7,
+      "exportCfsHours": 60.2,
+      "importIcdHours": 142.3,
+      "exportIcdHours": 106,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-06:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-06-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/July_2025_NLDS.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-06",
+      "importPortHours": 27.5,
+      "exportPortHours": 75,
+      "importCfsHours": 88.5,
+      "exportCfsHours": 58.2,
+      "importIcdHours": 126.2,
+      "exportIcdHours": 101.6,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-07:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-07-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/July_2025_NLDS.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-07",
+      "importPortHours": 22,
+      "exportPortHours": 78.1,
+      "importCfsHours": 91.4,
+      "exportCfsHours": 60.4,
+      "importIcdHours": 155.7,
+      "exportIcdHours": 113.2,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-08:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-08-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/PW0001_August.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-08",
+      "importPortHours": 26.8,
+      "exportPortHours": 78,
+      "importCfsHours": 91.8,
+      "exportCfsHours": 62.7,
+      "importIcdHours": 170.5,
+      "exportIcdHours": 109.2,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-09:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-09-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/LDB_Report_Oct_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-09",
+      "importPortHours": 43.2,
+      "exportPortHours": 71.5,
+      "importCfsHours": 93.1,
+      "exportCfsHours": 58,
+      "importIcdHours": 175.6,
+      "exportIcdHours": 104.8,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-10:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-10-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/LDB_Report_Nov_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-10",
+      "importPortHours": 25.3,
+      "exportPortHours": 70.1,
+      "importCfsHours": 98.3,
+      "exportCfsHours": 58.2,
+      "importIcdHours": 156.4,
+      "exportIcdHours": 113.5,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-11:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-11-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/LDB_Report_Dec_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-11",
+      "importPortHours": 28.3,
+      "exportPortHours": 68.8,
+      "importCfsHours": 98.7,
+      "exportCfsHours": 58,
+      "importIcdHours": 172.2,
+      "exportIcdHours": 112.2,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2025-12:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2025-12-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/LDB_Report_Dec_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2025-12",
+      "importPortHours": 28.5,
+      "exportPortHours": 73.4,
+      "importCfsHours": 90.4,
+      "exportCfsHours": 63.4,
+      "importIcdHours": 142.2,
+      "exportIcdHours": 108.8,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2026-01:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2026-01-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/PW0001_February_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2026-01",
+      "importPortHours": 20.9,
+      "exportPortHours": 74.6,
+      "importCfsHours": 87.4,
+      "exportCfsHours": 66.3,
+      "importIcdHours": 154.1,
+      "exportIcdHours": 109,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2026-02:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2026-02-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/PW0001_February_2025.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2026-02",
+      "importPortHours": 25.2,
+      "exportPortHours": 74.1,
+      "importCfsHours": 83.7,
+      "exportCfsHours": 66,
+      "importIcdHours": 171.1,
+      "exportIcdHours": 114.1,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2026-03:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2026-03-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/NLDS_REPORT_April_2026.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2026-03",
+      "importPortHours": 22.7,
+      "exportPortHours": 75.8,
+      "importCfsHours": 88,
+      "exportCfsHours": 69.5,
+      "importIcdHours": 171.1,
+      "exportIcdHours": 114.4,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2026-04:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2026-04-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/NLDS_REPORT_April_2026.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2026-04",
+      "importPortHours": 35,
+      "exportPortHours": 81.9,
+      "importCfsHours": 86.4,
+      "exportCfsHours": 76.6,
+      "importIcdHours": 156,
+      "exportIcdHours": 112.1,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2026-05:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2026-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/NLDS_Report_June_2026.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2026-05",
+      "importPortHours": 87.8,
+      "exportPortHours": 78.3,
+      "importCfsHours": 72.1,
+      "exportCfsHours": 86.7,
+      "importIcdHours": 137.2,
+      "exportIcdHours": 115.4,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_monthly:INNSA:2026-06:v1",
+      "kind": "dwell_monthly",
+      "version": 1,
+      "asOf": "2026-06-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+        "publisher": "JNPA / LDB",
+        "proofFiles": [
+          "proof/jnpa-ldb-monthly/NLDS_Report_June_2026.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "note": "Month-end published dwell (hours)"
+      },
+      "portId": "INNSA",
+      "periodKey": "2026-06",
+      "importPortHours": 59.5,
+      "exportPortHours": 78.6,
+      "importCfsHours": 82.8,
+      "exportCfsHours": 75.4,
+      "importIcdHours": 137.8,
+      "exportIcdHours": 122.1,
+      "metricSource": "JNPA_LDB"
+    },
+    {
+      "factId": "dwell_snapshot:INMUN:2025-05:v1",
+      "kind": "dwell_snapshot",
+      "version": 1,
+      "asOf": "2025-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/mundra_nldsl_may2025_VERIFIED.json",
+        "publisher": "NICDC / National Logistics Data Services Ltd (NLDSL) - PAN India Logistics Data Bank Ministry Report",
+        "proofFiles": [],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://nldsl.in/Uploads/image/409imguf_ldb-analytics-ministry-report-may25.pdf",
+        "note": "Mundra is a PRIVATE, NON-MAJOR port (Adani Ports/APSEZ, under Gujarat Maritime Board concession). It is NOT one of the 12 'Major Ports' covered by the PIB/MoPSW Turnaround Time (TRT) table. The 54.24 hrs figure in the PIB FY23-24 table belongs to DEENDAYAL PORT (formerly Kandla) - a separate, government-run major port in the same state. Do not attribute 54.24 hrs to Mundra. See deendayal_port section below for the correct PIB-linked figure."
+      },
+      "portId": "INMUN",
+      "periodLabel": "May 2025",
+      "importPortHours": 37.7,
+      "exportPortHours": 105.2,
+      "vesselBerthingHours": 26.9,
+      "metricSource": "NLDSL"
+    },
+    {
+      "factId": "dwell_snapshot:INMAA:2025-05:v1",
+      "kind": "dwell_snapshot",
+      "version": 1,
+      "asOf": "2025-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/chennai_nldsl_may2025_VERIFIED.json",
+        "publisher": "NLDSL",
+        "proofFiles": [],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED"
+      },
+      "portId": "INMAA",
+      "periodLabel": "May 2025",
+      "importPortHours": 41,
+      "exportPortHours": 80,
+      "vesselBerthingHours": null,
+      "metricSource": "NLDSL"
+    },
+    {
+      "factId": "dwell_snapshot:INCOK:2025-05:v1",
+      "kind": "dwell_snapshot",
+      "version": 1,
+      "asOf": "2025-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/cochin_nldsl_may2025_VERIFIED.json",
+        "publisher": "NLDSL",
+        "proofFiles": [],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED"
+      },
+      "portId": "INCOK",
+      "periodLabel": "May 2025",
+      "importPortHours": 39.6,
+      "exportPortHours": 74.9,
+      "vesselBerthingHours": null,
+      "metricSource": "NLDSL"
+    },
+    {
+      "factId": "dwell_snapshot:INVTZ:2025-05:v1",
+      "kind": "dwell_snapshot",
+      "version": 1,
+      "asOf": "2025-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/vizag_nldsl_may2025_VERIFIED.json",
+        "publisher": "NLDSL",
+        "proofFiles": [],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED"
+      },
+      "portId": "INVTZ",
+      "periodLabel": "May 2025",
+      "importPortHours": 54.2,
+      "exportPortHours": 68.4,
+      "vesselBerthingHours": null,
+      "metricSource": "NLDSL"
+    },
+    {
+      "factId": "dwell_snapshot:INCCU:2025-05:v1",
+      "kind": "dwell_snapshot",
+      "version": 1,
+      "asOf": "2025-05-01",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/kolkata_nldsl_may2025_VERIFIED.json",
+        "publisher": "NLDSL",
+        "proofFiles": [],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED"
+      },
+      "portId": "INCCU",
+      "periodLabel": "May 2025",
+      "importPortHours": 43.5,
+      "exportPortHours": 108,
+      "vesselBerthingHours": null,
+      "metricSource": "NLDSL"
+    },
+    {
+      "factId": "trt:INNSA:FY2324:v1",
+      "kind": "trt",
+      "version": 1,
+      "asOf": "2024-03-31",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/pib_major_ports_trt_fy2324_VERIFIED.json",
+        "publisher": "Ministry of Ports, Shipping and Waterways (PIB Rajya Sabha reply)",
+        "proofFiles": [
+          "proof/pib-port-trt-fy2324.html"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2080014"
+      },
+      "portId": "INNSA",
+      "periodLabel": "FY 2023-24",
+      "trtHours": 26,
+      "metricSource": "PIB"
+    },
+    {
+      "factId": "trt:INMAA:FY2324:v1",
+      "kind": "trt",
+      "version": 1,
+      "asOf": "2024-03-31",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/pib_major_ports_trt_fy2324_VERIFIED.json",
+        "publisher": "Ministry of Ports, Shipping and Waterways (PIB Rajya Sabha reply)",
+        "proofFiles": [
+          "proof/pib-port-trt-fy2324.html"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2080014"
+      },
+      "portId": "INMAA",
+      "periodLabel": "FY 2023-24",
+      "trtHours": 44.92,
+      "metricSource": "PIB"
+    },
+    {
+      "factId": "trt:INCOK:FY2324:v1",
+      "kind": "trt",
+      "version": 1,
+      "asOf": "2024-03-31",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/pib_major_ports_trt_fy2324_VERIFIED.json",
+        "publisher": "Ministry of Ports, Shipping and Waterways (PIB Rajya Sabha reply)",
+        "proofFiles": [
+          "proof/pib-port-trt-fy2324.html"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2080014"
+      },
+      "portId": "INCOK",
+      "periodLabel": "FY 2023-24",
+      "trtHours": 33.4,
+      "metricSource": "PIB"
+    },
+    {
+      "factId": "trt:INVTZ:FY2324:v1",
+      "kind": "trt",
+      "version": 1,
+      "asOf": "2024-03-31",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/pib_major_ports_trt_fy2324_VERIFIED.json",
+        "publisher": "Ministry of Ports, Shipping and Waterways (PIB Rajya Sabha reply)",
+        "proofFiles": [
+          "proof/pib-port-trt-fy2324.html"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2080014"
+      },
+      "portId": "INVTZ",
+      "periodLabel": "FY 2023-24",
+      "trtHours": 65.86,
+      "metricSource": "PIB"
+    },
+    {
+      "factId": "trt:INCCU:FY2324:v1",
+      "kind": "trt",
+      "version": 1,
+      "asOf": "2024-03-31",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/pib_major_ports_trt_fy2324_VERIFIED.json",
+        "publisher": "Ministry of Ports, Shipping and Waterways (PIB Rajya Sabha reply)",
+        "proofFiles": [
+          "proof/pib-port-trt-fy2324.html"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2080014"
+      },
+      "portId": "INCCU",
+      "periodLabel": "FY 2023-24",
+      "trtHours": 60.85,
+      "metricSource": "PIB"
+    },
+    {
+      "factId": "trt:INDEE:FY2324:v1",
+      "kind": "trt",
+      "version": 1,
+      "asOf": "2024-03-31",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "port-performance/pib_major_ports_trt_fy2324_VERIFIED.json",
+        "publisher": "Ministry of Ports, Shipping and Waterways (PIB Rajya Sabha reply)",
+        "proofFiles": [
+          "proof/pib-port-trt-fy2324.html"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2080014"
+      },
+      "portId": "INDEE",
+      "periodLabel": "FY 2023-24",
+      "trtHours": 54.24,
+      "metricSource": "PIB"
+    },
+    {
+      "factId": "fx:USDINR:2026-08-21:v1",
+      "kind": "fx",
+      "version": 1,
+      "asOf": "2026-08-21",
+      "trustTier": "VERIFIED",
+      "provenance": {
+        "sourcePath": "tariffs/fx_usdinr_VERIFIED.json",
+        "publisher": "Financial Benchmarks India Pvt Ltd (FBIL), via RBI Weekly Statistical Supplement",
+        "proofFiles": [
+          "proof/rbi-nsdp-fbil-spot.html",
+          "proof/rbi-wss-ratios-rates-2026-08-21.pdf"
+        ],
+        "fetchedAt": "2026-08-22",
+        "verificationStatus": "VERIFIED",
+        "sourceUrl": "https://rbi.org.in/Scripts/BS_NSDPDisplay.aspx?param=4",
+        "note": "RBI WSS footnote: FBIL computes USD/INR reference rate since 10 Jul 2018. Use for illustrative INR conversion of USD carrier tariffs only."
+      },
+      "pair": "USDINR",
+      "rate": 95.43,
+      "quoteCurrency": "INR",
+      "baseCurrency": "USD"
+    }
+  ]
+}

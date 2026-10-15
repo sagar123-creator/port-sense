@@ -1,0 +1,132 @@
+{
+  "portId": "INNSA",
+  "source": "01-verified/sheets/JNPA_LDB_monthly_dwell_MASTER.csv",
+  "months": [
+    {
+      "periodKey": "2024-10",
+      "exportDwellHours": 77.1,
+      "importDwellHours": 20.3,
+      "source": "id108_PW0001_Nov2024.pdf"
+    },
+    {
+      "periodKey": "2024-11",
+      "exportDwellHours": 77.9,
+      "importDwellHours": 20.8,
+      "source": "id108_PW0001_Nov2024.pdf"
+    },
+    {
+      "periodKey": "2024-12",
+      "exportDwellHours": 74,
+      "importDwellHours": 19,
+      "source": "id110_PW0001_Jan2025.pdf"
+    },
+    {
+      "periodKey": "2025-01",
+      "exportDwellHours": 77.2,
+      "importDwellHours": 22.6,
+      "source": "id110_PW0001_Jan2025.pdf"
+    },
+    {
+      "periodKey": "2025-02",
+      "exportDwellHours": 72.8,
+      "importDwellHours": 25.1,
+      "source": "PW0001_March_2025.pdf"
+    },
+    {
+      "periodKey": "2025-03",
+      "exportDwellHours": 74.4,
+      "importDwellHours": 28.3,
+      "source": "PW0001.pdf"
+    },
+    {
+      "periodKey": "2025-04",
+      "exportDwellHours": 73.3,
+      "importDwellHours": 24.2,
+      "source": "May_2025.pdf"
+    },
+    {
+      "periodKey": "2025-05",
+      "exportDwellHours": 74.4,
+      "importDwellHours": 28.1,
+      "source": "May_2025.pdf"
+    },
+    {
+      "periodKey": "2025-06",
+      "exportDwellHours": 75,
+      "importDwellHours": 27.5,
+      "source": "July_2025_NLDS.pdf"
+    },
+    {
+      "periodKey": "2025-07",
+      "exportDwellHours": 78.1,
+      "importDwellHours": 22,
+      "source": "July_2025_NLDS.pdf"
+    },
+    {
+      "periodKey": "2025-08",
+      "exportDwellHours": 78,
+      "importDwellHours": 26.8,
+      "source": "PW0001_August.pdf"
+    },
+    {
+      "periodKey": "2025-09",
+      "exportDwellHours": 71.5,
+      "importDwellHours": 43.2,
+      "source": "LDB_Report_Oct_2025.pdf"
+    },
+    {
+      "periodKey": "2025-10",
+      "exportDwellHours": 70.1,
+      "importDwellHours": 25.3,
+      "source": "LDB_Report_Nov_2025.pdf"
+    },
+    {
+      "periodKey": "2025-11",
+      "exportDwellHours": 68.8,
+      "importDwellHours": 28.3,
+      "source": "LDB_Report_Dec_2025.pdf"
+    },
+    {
+      "periodKey": "2025-12",
+      "exportDwellHours": 73.4,
+      "importDwellHours": 28.5,
+      "source": "LDB_Report_Dec_2025.pdf"
+    },
+    {
+      "periodKey": "2026-01",
+      "exportDwellHours": 74.6,
+      "importDwellHours": 20.9,
+      "source": "PW0001_February_2025.pdf"
+    },
+    {
+      "periodKey": "2026-02",
+      "exportDwellHours": 74.1,
+      "importDwellHours": 25.2,
+      "source": "PW0001_February_2025.pdf"
+    },
+    {
+      "periodKey": "2026-03",
+      "exportDwellHours": 75.8,
+      "importDwellHours": 22.7,
+      "source": "NLDS_REPORT_April_2026.pdf"
+    },
+    {
+      "periodKey": "2026-04",
+      "exportDwellHours": 81.9,
+      "importDwellHours": 35,
+      "source": "NLDS_REPORT_April_2026.pdf"
+    },
+    {
+      "periodKey": "2026-05",
+      "exportDwellHours": 78.3,
+      "importDwellHours": 87.8,
+      "source": "NLDS_Report_June_2026.pdf"
+    },
+    {
+      "periodKey": "2026-06",
+      "exportDwellHours": 78.6,
+      "importDwellHours": 59.5,
+      "source": "NLDS_Report_June_2026.pdf"
+    }
+  ]
+}

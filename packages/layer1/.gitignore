@@ -1,0 +1,5 @@
+node_modules/
+# dist committed for Vercel deploys
+data/raw/
+*.log
+.DS_Store

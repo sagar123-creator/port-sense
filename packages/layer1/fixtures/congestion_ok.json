@@ -1,0 +1,29 @@
+[
+  {
+    "Port": "JNPT",
+    "Date": "2026-05-01",
+    "Waiting_Time": "2 days",
+    "Vessel_Count": "12",
+    "Free_Days": "7",
+    "Distance": "850 km",
+    "Currency": "INR"
+  },
+  {
+    "Port": "Mundra",
+    "Date": "2026-05-01",
+    "Waiting_Time": "1.5 days",
+    "Vessel_Count": "8",
+    "Free_Days": "4",
+    "Distance": "920 km",
+    "Currency": "INR"
+  },
+  {
+    "Port": "Chennai",
+    "Date": "2026-05-01",
+    "Waiting_Time": "48 hours",
+    "Vessel_Count": "10",
+    "Free_Days": "5",
+    "Distance": "459 nm",
+    "Currency": "INR"
+  }
+]

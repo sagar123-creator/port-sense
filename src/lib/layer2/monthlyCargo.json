@@ -1,0 +1,378 @@
+{
+  "source": {
+    "file": "port_data_individual.csv",
+    "grain": "month",
+    "unit": "tonnes",
+    "notDayWise": true,
+    "notCompanyWise": true,
+    "notDestinationWise": true,
+    "officialDayWiseWaitFee": {
+      "status": "not_found",
+      "years": [
+        "2025",
+        "2026"
+      ],
+      "jnpaNlds": "https://www.jnport.gov.in/page/-nlds-report/",
+      "note": "JNPA Logistics Data Bank for later years is published as monthly PDFs, not a day-wise container CSV. These tonnes are cargo handled, not wait-fee and not used to invent daily dwell."
+    }
+  },
+  "portMap": {
+    "SMP Kolkata": "kolkata",
+    "Visakhapatnam": "vizag",
+    "Chennai": "chennai",
+    "Cochin": "cochin",
+    "JNPA": "jnpt"
+  },
+  "rows": [
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2025-10",
+      "monthLabel": "October 2025",
+      "tonnes": 4895350
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2025-10",
+      "monthLabel": "October 2025",
+      "tonnes": 3139345
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2025-10",
+      "monthLabel": "October 2025",
+      "tonnes": 8500635
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2025-10",
+      "monthLabel": "October 2025",
+      "tonnes": 5130105
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2025-10",
+      "monthLabel": "October 2025",
+      "tonnes": 6921535
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2025-11",
+      "monthLabel": "November 2025",
+      "tonnes": 4077370
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2025-11",
+      "monthLabel": "November 2025",
+      "tonnes": 3553753
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2025-11",
+      "monthLabel": "November 2025",
+      "tonnes": 8337771
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2025-11",
+      "monthLabel": "November 2025",
+      "tonnes": 6157410
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2025-11",
+      "monthLabel": "November 2025",
+      "tonnes": 6175623
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2025-12",
+      "monthLabel": "December 2025",
+      "tonnes": 5098191
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2025-12",
+      "monthLabel": "December 2025",
+      "tonnes": 3106852
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2025-12",
+      "monthLabel": "December 2025",
+      "tonnes": 8957813
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2025-12",
+      "monthLabel": "December 2025",
+      "tonnes": 6356907
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2025-12",
+      "monthLabel": "December 2025",
+      "tonnes": 8038897
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-01",
+      "monthLabel": "January 2026",
+      "tonnes": 5025526
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-01",
+      "monthLabel": "January 2026",
+      "tonnes": 3179381
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-01",
+      "monthLabel": "January 2026",
+      "tonnes": 8354257
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-01",
+      "monthLabel": "January 2026",
+      "tonnes": 6856726
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-01",
+      "monthLabel": "January 2026",
+      "tonnes": 8057956
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-02",
+      "monthLabel": "February 2026",
+      "tonnes": 4837558
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-02",
+      "monthLabel": "February 2026",
+      "tonnes": 2956650
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-02",
+      "monthLabel": "February 2026",
+      "tonnes": 8352118
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-02",
+      "monthLabel": "February 2026",
+      "tonnes": 5883813
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-02",
+      "monthLabel": "February 2026",
+      "tonnes": 7664228
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-03",
+      "monthLabel": "March 2026",
+      "tonnes": 4746652
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-03",
+      "monthLabel": "March 2026",
+      "tonnes": 1242487
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-03",
+      "monthLabel": "March 2026",
+      "tonnes": 8406372
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-03",
+      "monthLabel": "March 2026",
+      "tonnes": 6321853
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-03",
+      "monthLabel": "March 2026",
+      "tonnes": 4032833
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-04",
+      "monthLabel": "April 2026",
+      "tonnes": 4081667
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-04",
+      "monthLabel": "April 2026",
+      "tonnes": 1704804
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-04",
+      "monthLabel": "April 2026",
+      "tonnes": 8898960
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-04",
+      "monthLabel": "April 2026",
+      "tonnes": 4849204
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-04",
+      "monthLabel": "April 2026",
+      "tonnes": 2366675
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-05",
+      "monthLabel": "May 2026",
+      "tonnes": 3636526
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-05",
+      "monthLabel": "May 2026",
+      "tonnes": 2048561
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-05",
+      "monthLabel": "May 2026",
+      "tonnes": 9554410
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-05",
+      "monthLabel": "May 2026",
+      "tonnes": 5145394
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-05",
+      "monthLabel": "May 2026",
+      "tonnes": 1981347
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-06",
+      "monthLabel": "June 2026",
+      "tonnes": 4294926
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-06",
+      "monthLabel": "June 2026",
+      "tonnes": 2099937
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-06",
+      "monthLabel": "June 2026",
+      "tonnes": 8111030
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-06",
+      "monthLabel": "June 2026",
+      "tonnes": 5693217
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-06",
+      "monthLabel": "June 2026",
+      "tonnes": 2049497
+    },
+    {
+      "portUiId": "chennai",
+      "sourceName": "Chennai",
+      "periodKey": "2026-07",
+      "monthLabel": "July 2026",
+      "tonnes": 1706756
+    },
+    {
+      "portUiId": "cochin",
+      "sourceName": "Cochin",
+      "periodKey": "2026-07",
+      "monthLabel": "July 2026",
+      "tonnes": 2273785
+    },
+    {
+      "portUiId": "jnpt",
+      "sourceName": "JNPA",
+      "periodKey": "2026-07",
+      "monthLabel": "July 2026",
+      "tonnes": 8251081
+    },
+    {
+      "portUiId": "kolkata",
+      "sourceName": "SMP Kolkata",
+      "periodKey": "2026-07",
+      "monthLabel": "July 2026",
+      "tonnes": 5981099
+    },
+    {
+      "portUiId": "vizag",
+      "sourceName": "Visakhapatnam",
+      "periodKey": "2026-07",
+      "monthLabel": "July 2026",
+      "tonnes": 2328245
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "carrier": "Maersk",
+    "freeDays": 5,
+    "tiers": [
+      { "fromDay": 1, "toDay": 4, "rateINR": 3500 },
+      { "fromDay": 5, "toDay": 9, "rateINR": 5500 },
+      { "fromDay": 10, "toDay": null, "rateINR": 7500 }
+    ],
+    "source": "Maersk India local charges, Aug 2026"
+  },
+  {
+    "carrier": "MSC",
+    "freeDays": 5,
+    "tiers": [
+      { "fromDay": 1, "toDay": 4, "rateINR": 3200 },
+      { "fromDay": 5, "toDay": 9, "rateINR": 5200 },
+      { "fromDay": 10, "toDay": null, "rateINR": 7200 }
+    ],
+    "source": "MSC India local charges, Aug 2026"
+  },
+  {
+    "carrier": "CMA CGM",
+    "freeDays": 4,
+    "tiers": [
+      { "fromDay": 1, "toDay": 4, "rateINR": 3400 },
+      { "fromDay": 5, "toDay": 9, "rateINR": 5400 },
+      { "fromDay": 10, "toDay": null, "rateINR": 7400 }
+    ],
+    "source": "CMA CGM India local charges, Aug 2026"
+  },
+  {
+    "carrier": "Not decided",
+    "freeDays": 5,
+    "tiers": [
+      { "fromDay": 1, "toDay": 4, "rateINR": 3500 },
+      { "fromDay": 5, "toDay": 9, "rateINR": 5500 },
+      { "fromDay": 10, "toDay": null, "rateINR": 7500 }
+    ],
+    "source": "Blended carrier average, Aug 2026"
+  }
+]

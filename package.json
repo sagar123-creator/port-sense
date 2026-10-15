@@ -1,0 +1,53 @@
+{
+  "name": "port-sense",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "layers:build": "npm run build --prefix ./packages/layer1 && npm run build --prefix ./packages/layer2 && npm run build --prefix ./packages/layer3 && npm run build --prefix ./packages/layer4 && npm run build --prefix ./packages/layer5 && npm run build --prefix ./packages/layer6 && npm run build --prefix ./packages/layer7 && npm run build --prefix ./packages/dwm",
+    "dwm:seed": "npm run seed --prefix ./packages/dwm",
+    "dwm:validate": "npm run validate --prefix ./packages/dwm",
+    "dwm:verify": "npx --yes tsx scripts/validate-dwm-context.ts",
+    "predev": "npm run layers:build",
+    "prebuild": "npm run layers:build",
+    "dev": "next dev --hostname 127.0.0.1 --port 3000",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3000",
+    "lint": "eslint",
+    "stress": "npx --yes tsx scripts/stress-test.ts"
+  },
+  "dependencies": {
+    "@port-sense/layer1-ingestion": "file:./packages/layer1",
+    "@port-sense/layer2-canonical": "file:./packages/layer2",
+    "@port-sense/layer3-decision": "file:./packages/layer3",
+    "@port-sense/layer4-decision": "file:./packages/layer4",
+    "@port-sense/layer5-explanation": "file:./packages/layer5",
+    "@port-sense/layer6-inland": "file:./packages/layer6",
+    "@port-sense/layer7-time": "file:./packages/layer7",
+    "@port-sense/dwm-warehouse": "file:./packages/dwm",
+    "better-sqlite3": "^13.0.3",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.31.0",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-globe.gl": "^2.38.0",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.10.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.1",
+    "playwright": "^1.62.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

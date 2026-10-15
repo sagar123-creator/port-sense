@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-10-15T17:19:09.757Z",
+  "passed": 29,
+  "failed": 0,
+  "decision": "READY",
+  "checks": [
+    {
+      "id": "E1",
+      "name": "Real sources seed without skipped files",
+      "status": "PASSED",
+      "detail": "5 batches loaded, 0 skipped"
+    },
+    {
+      "id": "E2",
+      "name": "Traffic dataset row count matches source",
+      "status": "PASSED",
+      "detail": "50 monthly cargo rows (5 ports × 10 months)"
+    },
+    {
+      "id": "E3",
+      "name": "Dwell datasets load (21 monthly + 5 snapshot)",
+      "status": "PASSED",
+      "detail": "26 dwell rows; NLDSL snapshots anchored on asOf month"
+    },
+    {
+      "id": "E4",
+      "name": "Undated IPA rows rejected with reasons (not dropped silently)",
+      "status": "PASSED",
+      "detail": "14 rejects, all with reasons (undated PDF rows)"
+    },
+    {
+      "id": "E5",
+      "name": "Import idempotency — re-seed changes nothing",
+      "status": "PASSED",
+      "detail": "second run: inserted=0 updated=0 (first-run unchanged base 0)"
+    },
+    {
+      "id": "E6",
+      "name": "Duplicate rows inside a batch rejected",
+      "status": "PASSED",
+      "detail": "alias-collision duplicate rejected with reason"
+    },
+    {
+      "id": "E7",
+      "name": "Invalid values rejected with reasons",
+      "status": "PASSED",
+      "detail": "bad period, negative and NaN tonnes all rejected"
+    },
+    {
+      "id": "E8",
+      "name": "Dwell transform: nulls preserved, both-null rejected",
+      "status": "PASSED",
+      "detail": "NULL ≠ 0 enforced; both-null rejected"
+    },
+    {
+      "id": "W1",
+      "name": "Star schema: every fact joins its dimensions",
+      "status": "PASSED",
+      "detail": "0 orphan foreign keys across 5 fact/dimension joins"
+    },
+    {
+      "id": "W2",
+      "name": "Mode check constraint rejects mixed rows",
+      "status": "PASSED",
+      "detail": "CHECK (mode IN ('real','synthetic')) enforced"
+    },
+    {
+      "id": "W3",
+      "name": "Provenance: every traffic source is registered with a publisher",
+      "status": "PASSED",
+      "detail": "all dim_source rows carry publisher"
+    },
+    {
+      "id": "O1",
+      "name": "Roll-up: monthly → quarterly tonnes sum equals row-level sum",
+      "status": "PASSED",
+      "detail": "quarter roll-up total 261423088 t == direct sum"
+    },
+    {
+      "id": "O2",
+      "name": "Drill-down: year → quarters → months hierarchy consistent",
+      "status": "PASSED",
+      "detail": "2 year row(s) drill to 10 month rows, totals equal"
+    },
+    {
+      "id": "O3",
+      "name": "Slice: single-dimension filter restricts rows",
+      "status": "PASSED",
+      "detail": "slice on month 2025-10 returns exactly 5 port rows"
+    },
+    {
+      "id": "O4",
+      "name": "Dice: two filters intersect correctly",
+      "status": "PASSED",
+      "detail": "dice (2 months × 2 ports) returns 2 cells"
+    },
+    {
+      "id": "O5",
+      "name": "Pivot: port × month cross-tab cells reconcile with marginals",
+      "status": "PASSED",
+      "detail": "5 ports × 10 months = 50 cells, total 261423088 t reconciles"
+    },
+    {
+      "id": "O6",
+      "name": "Invalid inputs rejected (injection + bad level)",
+      "status": "PASSED",
+      "detail": "bad level rejected; SQL injection attempt neutralised by bound params"
+    },
+    {
+      "id": "O7",
+      "name": "Real and synthetic modes never mix",
+      "status": "PASSED",
+      "detail": "mode-scoped queries return disjoint source sets"
+    },
+    {
+      "id": "O8",
+      "name": "Coverage report reflects warehouse contents",
+      "status": "PASSED",
+      "detail": "traffic: 50 real + 60 synthetic rows, 5 ports"
+    },
+    {
+      "id": "O9",
+      "name": "Measure catalog rejects unknown measures/units",
+      "status": "PASSED",
+      "detail": "catalog correct; empty filter rejected"
+    },
+    {
+      "id": "M1",
+      "name": "K-means runs on real dwell+trt features and reports honestly",
+      "status": "PASSED",
+      "detail": "5 ports clustered, silhouette=0.575, 9 excluded"
+    },
+    {
+      "id": "M2",
+      "name": "K-means refuses when too few complete observations",
+      "status": "PASSED",
+      "detail": "refused with limitation message"
+    },
+    {
+      "id": "M3",
+      "name": "Anomaly detection flags only real outliers, with baselines",
+      "status": "PASSED",
+      "detail": "50 points across 5 series; 4 flag(s) at threshold 2.5"
+    },
+    {
+      "id": "M4",
+      "name": "Real prediction refuses without labelled data",
+      "status": "PASSED",
+      "detail": "refused with documented reasons (no labelled outcome data)"
+    },
+    {
+      "id": "M5",
+      "name": "Synthetic prediction harness evaluates vs baseline",
+      "status": "PASSED",
+      "detail": "accuracy=1 vs baseline=0.444"
+    },
+    {
+      "id": "I1",
+      "name": "Import history recorded for every batch",
+      "status": "PASSED",
+      "detail": "11 batches in etl_import (10 real, 1 synthetic)"
+    },
+    {
+      "id": "I2",
+      "name": "CSV parser handles quotes, CRLF and BOM",
+      "status": "PASSED",
+      "detail": "BOM stripped, quotes/CRLF handled"
+    },
+    {
+      "id": "I3",
+      "name": "Load-only path accepts transformed CSV-shaped import",
+      "status": "PASSED",
+      "detail": "CSV rows load; unknown port gets IMPORTED: id"
+    },
+    {
+      "id": "I4",
+      "name": "importCsv: header validation, preview, idempotent re-import",
+      "status": "PASSED",
+      "detail": "bad header rejected with guidance; 2 valid rows load; 1 rejected; re-import unchanged"
+    }
+  ]
+}

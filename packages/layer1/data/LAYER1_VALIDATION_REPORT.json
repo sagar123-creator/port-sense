@@ -1,0 +1,98 @@
+{
+  "layer": "layer1-ingestion",
+  "generatedAt": "2026-08-23T03:37:49.408Z",
+  "decision": "READY FOR DEPLOYMENT",
+  "decisionNote": "Layer 1 ready means messy files convert safely to IngestionBatchResult. Not an ML or UI verdict.",
+  "counts": {
+    "passed": 14,
+    "failed": 0,
+    "errors": 0,
+    "total": 14
+  },
+  "results": [
+    {
+      "id": "1",
+      "name": "CSV ingestion",
+      "status": "PASSED",
+      "detail": "3 rows, 7 cols, raw=persisted"
+    },
+    {
+      "id": "2",
+      "name": "Excel ingestion equivalent to CSV",
+      "status": "PASSED",
+      "detail": "datasetsEquivalent=true"
+    },
+    {
+      "id": "3",
+      "name": "JSON ingestion equivalent to CSV",
+      "status": "PASSED",
+      "detail": "same canonical tabular content"
+    },
+    {
+      "id": "4",
+      "name": "Empty file rejected gracefully",
+      "status": "PASSED",
+      "detail": "EMPTY_FILE: File is empty (0 bytes)"
+    },
+    {
+      "id": "5",
+      "name": "Corrupted file useful error",
+      "status": "PASSED",
+      "detail": "CORRUPT_FILE: JSON is not valid JSON"
+    },
+    {
+      "id": "6",
+      "name": "Missing required columns detected",
+      "status": "PASSED",
+      "detail": "Missing required canonical columns: port_name, observation_date, waiting_time"
+    },
+    {
+      "id": "7",
+      "name": "Different column names → port field",
+      "status": "PASSED",
+      "detail": "aliases ok; alt_headers accepted=1"
+    },
+    {
+      "id": "8",
+      "name": "Entity resolution JNPT aliases → INNSA",
+      "status": "PASSED",
+      "detail": "id=INNSA, rows=4"
+    },
+    {
+      "id": "9",
+      "name": "Unit conversion hours→days & nm→km",
+      "status": "PASSED",
+      "detail": "48h→2d; 459nm→850.068km; originals preserved"
+    },
+    {
+      "id": "10",
+      "name": "Invalid values flagged",
+      "status": "PASSED",
+      "detail": "neg wait=INVALID; free_days=500 → SUSPICIOUS"
+    },
+    {
+      "id": "11",
+      "name": "Duplicate detection",
+      "status": "PASSED",
+      "detail": "duplicates=1"
+    },
+    {
+      "id": "12",
+      "name": "Provenance on accepted records",
+      "status": "PASSED",
+      "detail": "source_id=raw_c1e88a0426eb9fe1; status=VALID"
+    },
+    {
+      "id": "13",
+      "name": "Happy-path batch decision",
+      "status": "PASSED",
+      "detail": "decision=APPROVED accepted=3"
+    },
+    {
+      "id": "14",
+      "name": "Unknown binary useful error",
+      "status": "PASSED",
+      "detail": "CORRUPT_FILE: Unsupported or unrecognized file format for x.bin"
+    }
+  ]
+}

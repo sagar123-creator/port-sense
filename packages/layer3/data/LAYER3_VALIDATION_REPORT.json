@@ -1,0 +1,344 @@
+{
+  "layer": "layer3-decision",
+  "generatedAt": "2026-08-23T03:37:51.341Z",
+  "decision": "READY FOR DEPLOYMENT",
+  "decisionNote": "Deterministic demurrage/risk ready to consume L2. Not an ML model deployment verdict.",
+  "counts": {
+    "passed": 29,
+    "failed": 0,
+    "errors": 0,
+    "na": 18,
+    "total": 47
+  },
+  "results": [
+    {
+      "id": "1.1",
+      "section": "1. Environment",
+      "name": "L2 snapshot present",
+      "status": "PASSED",
+      "detail": "C:\\SIH\\layer2\\data\\canonical-snapshot.json"
+    },
+    {
+      "id": "1.2",
+      "section": "1. Environment",
+      "name": "Boot DecisionRuntime",
+      "status": "PASSED",
+      "detail": "facts=40"
+    },
+    {
+      "id": "1.3",
+      "section": "1. Environment",
+      "name": "No hardcoded user home paths",
+      "status": "PASSED",
+      "detail": "Uses createCanonicalClient / getDefaultSnapshotPath"
+    },
+    {
+      "id": "1.4",
+      "section": "1. Environment",
+      "name": "Python ML env",
+      "status": "N/A",
+      "detail": "Decision math is TS; ML suite deferred to layer3/ml"
+    },
+    {
+      "id": "2.1",
+      "section": "2. Data loading (via L2)",
+      "name": "Ports/carriers loaded",
+      "status": "PASSED",
+      "detail": "7 ports, 6 carriers"
+    },
+    {
+      "id": "2.2",
+      "section": "2. Data loading (via L2)",
+      "name": "JNPT export dwell",
+      "status": "PASSED",
+      "detail": "78.6h @ 2026-06"
+    },
+    {
+      "id": "3.1",
+      "section": "3. Missing values",
+      "name": "Fail-closed on missing dwell/tariff",
+      "status": "PASSED",
+      "detail": "DecisionDataError / CanonicalNotFoundError paths covered below"
+    },
+    {
+      "id": "4.1",
+      "section": "4. Duplicates",
+      "name": "Canonical fact uniqueness",
+      "status": "N/A",
+      "detail": "Owned by Layer 2 validate"
+    },
+    {
+      "id": "5.1",
+      "section": "5. Data types",
+      "name": "Input validation types",
+      "status": "PASSED",
+      "detail": "containerSize enum + numeric guards"
+    },
+    {
+      "id": "6.1",
+      "section": "6. Range / validity",
+      "name": "Reject negative dwell override",
+      "status": "PASSED",
+      "detail": "DecisionValidationError"
+    },
+    {
+      "id": "7.1",
+      "section": "7. Outliers",
+      "name": "Dwell outlier policy",
+      "status": "N/A",
+      "detail": "L2 retains published outliers; L3 prices them honestly"
+    },
+    {
+      "id": "8.1",
+      "section": "8. Output (decision targets)",
+      "name": "Cost + risk produced",
+      "status": "PASSED",
+      "detail": "₹0 | risk=low | dwellDays=3.28"
+    },
+    {
+      "id": "8.2",
+      "section": "8. Output (decision targets)",
+      "name": "Non-negative cost",
+      "status": "PASSED",
+      "detail": "₹0"
+    },
+    {
+      "id": "9.1",
+      "section": "9. Leakage / honesty",
+      "name": "Honesty note present",
+      "status": "PASSED",
+      "detail": "Deterministic slab math on Layer-2 published tariffs + dwell. Not live AIS. USD→INR uses FBIL/RBI FX fact when tariff is USD."
+    },
+    {
+      "id": "9.2",
+      "section": "9. Leakage / honesty",
+      "name": "Cites tariff factId",
+      "status": "PASSED",
+      "detail": "tariff:MAERSK:export:dry:v1"
+    },
+    {
+      "id": "9.3",
+      "section": "9. Leakage / honesty",
+      "name": "Inside free time ⇒ ₹0",
+      "status": "PASSED",
+      "detail": "no phantom charges"
+    },
+    {
+      "id": "10.1",
+      "section": "10. Train-test split",
+      "name": "ML split",
+      "status": "N/A",
+      "detail": "N/A — deterministic Decision layer"
+    },
+    {
+      "id": "11.1",
+      "section": "11. Decision pipeline",
+      "name": "USD tariff × FX → INR",
+      "status": "PASSED",
+      "detail": "FX=95.43, ₹18036"
+    },
+    {
+      "id": "11.2",
+      "section": "11. Decision pipeline",
+      "name": "comparePorts ranks ≥2",
+      "status": "PASSED",
+      "detail": "6 ports"
+    },
+    {
+      "id": "12.1",
+      "section": "12. Feature use",
+      "name": "Uses freeDays, slabs, dwell, FX",
+      "status": "PASSED",
+      "detail": "No invented rates"
+    },
+    {
+      "id": "13.1",
+      "section": "13. Baseline sanity",
+      "name": "Risk baseline monotonic",
+      "status": "PASSED",
+      "detail": "excess -1 → low, +10 → high"
+    },
+    {
+      "id": "14.1",
+      "section": "14. Multi-model ML comparison",
+      "name": "Multi-model ML comparison",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "15.1",
+      "section": "15. Cross-validation",
+      "name": "Cross-validation",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "16.1",
+      "section": "16. Overfit/underfit (ML)",
+      "name": "Overfit/underfit (ML)",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "17.1",
+      "section": "17. Classification metrics",
+      "name": "Classification metrics",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "18.1",
+      "section": "18. Regression metrics",
+      "name": "Regression metrics",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "19.1",
+      "section": "19. Confusion matrix",
+      "name": "Confusion matrix",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "20.1",
+      "section": "20. SHAP/importance",
+      "name": "SHAP/importance",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "21.1",
+      "section": "21. Hyperparameter search",
+      "name": "Hyperparameter search",
+      "status": "N/A",
+      "detail": "ML-only — run under layer3/ml against JNPA events"
+    },
+    {
+      "id": "18b.1",
+      "section": "18b. Published dwell baseline (reference)",
+      "name": "Recorded MAE (not Decision claim)",
+      "status": "PASSED",
+      "detail": "terminal_median_baseline: MAE 33.83h, within_24h 55.6% — Decision layer does NOT use this as demurrage input"
+    },
+    {
+      "id": "22.1",
+      "section": "22. Robustness",
+      "name": "Small dwell increase ≥ cost",
+      "status": "PASSED",
+      "detail": "₹69858 → ₹87048"
+    },
+    {
+      "id": "23.1",
+      "section": "23. Edge cases",
+      "name": "Missing ZIM tariff errors",
+      "status": "PASSED",
+      "detail": "throw on missing tariff"
+    },
+    {
+      "id": "23.2",
+      "section": "23. Edge cases",
+      "name": "Reject containerCount=0",
+      "status": "PASSED",
+      "detail": "containerCount must be a positive integer"
+    },
+    {
+      "id": "23.3",
+      "section": "23. Edge cases",
+      "name": "Cap billed days at 60",
+      "status": "PASSED",
+      "detail": "billed=60"
+    },
+    {
+      "id": "24.1",
+      "section": "24. Single decision workflow",
+      "name": "10 realistic evaluate() calls",
+      "status": "PASSED",
+      "detail": "all OK"
+    },
+    {
+      "id": "25.1",
+      "section": "25. New data",
+      "name": "External dataset",
+      "status": "N/A",
+      "detail": "When new L2 seed lands, re-run validate"
+    },
+    {
+      "id": "26.1",
+      "section": "26. Drift",
+      "name": "Dwell/FX drift",
+      "status": "N/A",
+      "detail": "Compare new L2 snapshot stats vs this report baseline"
+    },
+    {
+      "id": "27.1",
+      "section": "27. Fairness",
+      "name": "Group fairness",
+      "status": "N/A",
+      "detail": "Optional if MSME segmentation added"
+    },
+    {
+      "id": "28.1",
+      "section": "28. Stability",
+      "name": "Multi-seed ML",
+      "status": "N/A",
+      "detail": "N/A deterministic"
+    },
+    {
+      "id": "29.1",
+      "section": "29. Reproducibility",
+      "name": "Same input → same cost",
+      "status": "PASSED",
+      "detail": "₹57000"
+    },
+    {
+      "id": "30.1",
+      "section": "30. Save/load (via L2 snapshot)",
+      "name": "Reload snapshot → same decision",
+      "status": "PASSED",
+      "detail": "₹17100"
+    },
+    {
+      "id": "31.1",
+      "section": "31. Performance",
+      "name": "evaluate latency",
+      "status": "PASSED",
+      "detail": "1=0.06ms, 100=1.5ms"
+    },
+    {
+      "id": "32.1",
+      "section": "32. Input validation",
+      "name": "Invalid inputs rejected",
+      "status": "PASSED",
+      "detail": "2 cases"
+    },
+    {
+      "id": "33.1",
+      "section": "33. API integration",
+      "name": "HTTP route",
+      "status": "N/A",
+      "detail": "Wire port-sense /api/risk to DecisionService next"
+    },
+    {
+      "id": "34.1",
+      "section": "34. ML holdout",
+      "name": "Untouched holdout",
+      "status": "N/A",
+      "detail": "For layer3/ml only"
+    },
+    {
+      "id": "35.1",
+      "section": "35. Automated suite",
+      "name": "validate-full runner",
+      "status": "PASSED",
+      "detail": "45 checks"
+    },
+    {
+      "id": "36.1",
+      "section": "36. Final decision math spot-check",
+      "name": "Maersk day-8 @ ₹2850/20'",
+      "status": "PASSED",
+      "detail": "₹2850"
+    }
+  ]
+}

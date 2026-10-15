@@ -1,0 +1,467 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand identity — deep orange on navy */
+  --brand-navy: #07111f;
+  --brand-navy-mid: #122038;
+  --brand-orange: #e44d0e;
+  --brand-orange-deep: #b83609;
+  --brand-orange-soft: #ff7a38;
+  --brand-off-white: #f4f6f9;
+  --brand-charcoal: #1a1a1a;
+  --brand-muted: #8b9bb4;
+
+  /* Tonal surface ladder (dark) */
+  --surface-0: #04080f;
+  --surface-1: #07111f;
+  --surface-2: #0c1a2e;
+  --surface-3: #14263f;
+  --surface-4: #1c3352;
+
+  /* Tonal surface ladder (light) */
+  --surface-light: #f4f6f9;
+  --surface-light-raised: #ffffff;
+
+  /* Text roles on dark surfaces */
+  --ink: #ffffff;
+  --ink-2: rgba(255, 255, 255, 0.72);
+  --ink-3: rgba(255, 255, 255, 0.52);
+  --ink-4: rgba(255, 255, 255, 0.34);
+
+  /* Text roles on light surfaces */
+  --graphite: #0b1524;
+  --graphite-2: #47576b;
+  --graphite-3: #78859a;
+
+  /* Hairlines */
+  --hairline: rgba(255, 255, 255, 0.08);
+  --hairline-strong: rgba(255, 255, 255, 0.16);
+  --hairline-dark: rgba(11, 21, 36, 0.1);
+
+  /* Risk semantics */
+  --risk-low: #22c55e;
+  --risk-med: #f59e0b;
+  --risk-high: #ef4444;
+
+  --background: var(--surface-1);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-navy-mid: var(--brand-navy-mid);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-orange-deep: var(--brand-orange-deep);
+  --color-brand-orange-soft: var(--brand-orange-soft);
+  --color-brand-off-white: var(--brand-off-white);
+  --color-brand-charcoal: var(--brand-charcoal);
+  --color-brand-muted: var(--brand-muted);
+
+  --color-surface-0: var(--surface-0);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-surface-4: var(--surface-4);
+  --color-surface-light: var(--surface-light);
+  --color-surface-light-raised: var(--surface-light-raised);
+
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-ink-4: var(--ink-4);
+  --color-graphite: var(--graphite);
+  --color-graphite-2: var(--graphite-2);
+  --color-graphite-3: var(--graphite-3);
+
+  --color-hairline: var(--hairline);
+  --color-hairline-strong: var(--hairline-strong);
+  --color-hairline-dark: var(--hairline-dark);
+
+  --color-risk-low: var(--risk-low);
+  --color-risk-med: var(--risk-med);
+  --color-risk-high: var(--risk-high);
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-sora);
+  --font-condensed: var(--font-bebas);
+  --font-mono: var(--font-geist-mono);
+
+  /* Fluid display scale */
+  --text-hero: clamp(2.75rem, 11.5vw, 12rem);
+  --text-hero--line-height: 0.82;
+  --text-hero--letter-spacing: -0.05em;
+
+  --text-display-1: clamp(2.75rem, 7vw, 5.5rem);
+  --text-display-1--line-height: 0.96;
+  --text-display-1--letter-spacing: -0.04em;
+
+  --text-display-2: clamp(2rem, 4.2vw, 3.25rem);
+  --text-display-2--line-height: 1.04;
+  --text-display-2--letter-spacing: -0.03em;
+
+  --text-title-1: clamp(1.625rem, 2.8vw, 2.375rem);
+  --text-title-1--line-height: 1.12;
+  --text-title-1--letter-spacing: -0.025em;
+
+  --text-title-2: clamp(1.25rem, 1.9vw, 1.625rem);
+  --text-title-2--line-height: 1.2;
+  --text-title-2--letter-spacing: -0.02em;
+
+  --text-title-3: 1.0625rem;
+  --text-title-3--line-height: 1.4;
+  --text-title-3--letter-spacing: -0.011em;
+
+  --text-lead: clamp(1rem, 1.15vw, 1.1875rem);
+  --text-lead--line-height: 1.65;
+
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.65;
+
+  --text-small: 0.8125rem;
+  --text-small--line-height: 1.55;
+
+  --text-label: 0.6875rem;
+  --text-label--line-height: 1.2;
+  --text-label--letter-spacing: 0.14em;
+
+  --text-metric: clamp(1.875rem, 3vw, 2.5rem);
+  --text-metric--line-height: 1;
+  --text-metric--letter-spacing: -0.03em;
+
+  --radius-panel: 1.125rem;
+  --radius-card: 1.5rem;
+  --radius-shell: 2rem;
+
+  --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 40px -24px rgba(0, 0, 0, 0.7);
+  --shadow-float: 0 2px 4px rgba(0, 0, 0, 0.25), 0 32px 64px -28px rgba(0, 0, 0, 0.85);
+  --shadow-soft: 0 1px 2px rgba(11, 21, 36, 0.05), 0 12px 32px -18px rgba(11, 21, 36, 0.18);
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: var(--surface-1);
+    color: var(--ink);
+    font-family: var(--font-inter), system-ui, sans-serif;
+    font-feature-settings: "cv11", "ss01";
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--brand-orange) 35%, transparent);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--brand-orange);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-sora), var(--font-inter), system-ui, sans-serif;
+    text-wrap: balance;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.16) transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+  }
+}
+
+/* ---------- Surface treatments ---------- */
+
+.glass-card {
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.09) 0%,
+    rgba(255, 255, 255, 0.035) 55%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    var(--shadow-float);
+}
+
+.panel-sheen {
+  background: linear-gradient(
+    165deg,
+    color-mix(in oklab, var(--surface-3) 92%, white 8%) 0%,
+    var(--surface-2) 48%,
+    var(--surface-1) 100%
+  );
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.hero-wordmark {
+  font-family: var(--font-bebas), var(--font-sora), system-ui, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 0.9;
+  padding-top: 0.14em;
+  overflow: visible;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.58) 0%,
+    rgba(186, 198, 214, 0.28) 38%,
+    rgba(18, 30, 48, 0.88) 72%,
+    rgba(4, 8, 15, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  user-select: none;
+}
+
+.hero-shell {
+  isolation: isolate;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.08),
+    0 48px 100px -36px rgba(0, 0, 0, 0.92),
+    0 0 80px -24px color-mix(in oklab, var(--brand-orange) 28%, transparent);
+}
+
+.photo-grade {
+  filter: saturate(1.02) contrast(1.1) brightness(0.78);
+}
+
+.photo-grade-warm {
+  filter: saturate(1.18) contrast(1.18) brightness(0.68) sepia(0.1);
+}
+
+.photo-grade-night {
+  filter: saturate(1.22) contrast(1.2) brightness(0.76);
+}
+
+.grid-lines {
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 88px 100%, 100% 88px;
+  mask-image: radial-gradient(120% 80% at 50% 40%, #000 25%, transparent 78%);
+  -webkit-mask-image: radial-gradient(120% 80% at 50% 40%, #000 25%, transparent 78%);
+}
+
+.glow-accent {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    color-mix(in oklab, var(--brand-orange) 42%, transparent) 0%,
+    transparent 72%
+  );
+  filter: blur(28px);
+}
+
+.orange-slab {
+  background: linear-gradient(180deg, #ff6a24 0%, var(--brand-orange) 42%, var(--brand-orange-deep) 100%);
+}
+
+/* Full-viewport marketing slides */
+html.snap-home {
+  height: 100%;
+  overflow: hidden;
+}
+
+html.snap-home body {
+  display: block;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  overscroll-behavior-y: contain;
+}
+
+html.snap-home #main {
+  display: block;
+}
+
+.slide {
+  box-sizing: border-box;
+  height: 100svh;
+  height: 100dvh;
+  max-height: 100dvh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  overflow: hidden;
+}
+
+.slide-index {
+  font-family: var(--font-bebas), var(--font-sora), system-ui, sans-serif;
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  .slide {
+    height: auto;
+    min-height: 100svh;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+/* ---------- Motion ---------- */
+
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition:
+    opacity 0.85s var(--ease-out-quint),
+    transform 0.85s var(--ease-out-quint);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal[data-visible="true"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.marquee-track {
+  animation: marquee 42s linear infinite;
+}
+
+@keyframes marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -9px, 0);
+  }
+}
+
+@keyframes live-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.72);
+  }
+}
+
+.live-dot {
+  animation: live-pulse 2.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .marquee-track,
+  .drift {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ---------- Leaflet, themed to the dark palette ---------- */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: var(--surface-2);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.leaflet-container .leaflet-popup-content-wrapper {
+  background: var(--surface-3);
+  color: var(--ink);
+  border: 1px solid var(--hairline-strong);
+  border-radius: 14px;
+  box-shadow: var(--shadow-float);
+}
+
+.leaflet-container .leaflet-popup-content {
+  margin: 12px 14px;
+}
+
+/* Leaflet ships a 1.3em paragraph margin that wrecks any popup layout. */
+.leaflet-container .leaflet-popup-content p {
+  margin: 0;
+}
+
+.leaflet-container .leaflet-popup-tip {
+  background: var(--surface-3);
+  border: 1px solid var(--hairline-strong);
+}
+
+.leaflet-container .leaflet-popup-close-button {
+  color: var(--ink-3);
+  padding: 6px 8px 0 0;
+}
+
+.leaflet-container .leaflet-popup-close-button:hover {
+  color: var(--ink);
+  background: transparent;
+}
+
+.leaflet-container .leaflet-control-zoom a {
+  background: var(--surface-3);
+  color: var(--ink-2);
+  border-color: var(--hairline);
+}
+
+.leaflet-container .leaflet-control-zoom a:hover {
+  background: var(--surface-4);
+  color: var(--ink);
+}
+
+.leaflet-container .leaflet-control-attribution {
+  background: rgba(5, 11, 20, 0.72);
+  color: var(--ink-4);
+  font-size: 10px;
+}
+
+.leaflet-container .leaflet-control-attribution a {
+  color: var(--ink-3);
+}

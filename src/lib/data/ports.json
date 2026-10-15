@@ -1,0 +1,102 @@
+[
+  {
+    "id": "jnpt",
+    "name": "JNPT (Nhava Sheva)",
+    "code": "INNSA",
+    "state": "Maharashtra",
+    "lat": 18.9498,
+    "lng": 72.9512,
+    "avgDwellDays": 4.2,
+    "vesselsQueued": 12,
+    "congestionScore": 78,
+    "trend": [62, 65, 68, 72, 74, 76, 78],
+    "equipmentLoad": {
+      "sts": "critical",
+      "rtg": "busy",
+      "reachStacker": "busy",
+      "yard": "critical",
+      "shed": "busy",
+      "trucks": "busy"
+    }
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai",
+    "code": "INMAA",
+    "state": "Tamil Nadu",
+    "lat": 13.0827,
+    "lng": 80.2707,
+    "avgDwellDays": 2.1,
+    "vesselsQueued": 6,
+    "congestionScore": 48,
+    "trend": [44, 45, 46, 47, 48, 47, 48],
+    "equipmentLoad": {
+      "sts": "busy",
+      "rtg": "normal",
+      "reachStacker": "busy",
+      "yard": "busy",
+      "shed": "normal",
+      "trucks": "normal"
+    }
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata (Haldia)",
+    "code": "INHAL",
+    "state": "West Bengal",
+    "lat": 22.0258,
+    "lng": 88.0584,
+    "avgDwellDays": 3.0,
+    "vesselsQueued": 5,
+    "congestionScore": 55,
+    "trend": [50, 51, 52, 53, 54, 55, 55],
+    "equipmentLoad": {
+      "sts": "busy",
+      "rtg": "busy",
+      "reachStacker": "normal",
+      "yard": "busy",
+      "shed": "busy",
+      "trucks": "busy"
+    }
+  },
+  {
+    "id": "vizag",
+    "name": "Visakhapatnam",
+    "code": "INVTZ",
+    "state": "Andhra Pradesh",
+    "lat": 17.6868,
+    "lng": 83.2185,
+    "avgDwellDays": 1.5,
+    "vesselsQueued": 4,
+    "congestionScore": 35,
+    "trend": [38, 37, 36, 35, 35, 34, 35],
+    "equipmentLoad": {
+      "sts": "normal",
+      "rtg": "normal",
+      "reachStacker": "normal",
+      "yard": "normal",
+      "shed": "normal",
+      "trucks": "normal"
+    }
+  },
+  {
+    "id": "cochin",
+    "name": "Cochin",
+    "code": "INCOK",
+    "state": "Kerala",
+    "lat": 9.9312,
+    "lng": 76.2673,
+    "avgDwellDays": 1.8,
+    "vesselsQueued": 3,
+    "congestionScore": 30,
+    "trend": [32, 31, 30, 30, 29, 30, 30],
+    "equipmentLoad": {
+      "sts": "normal",
+      "rtg": "normal",
+      "reachStacker": "normal",
+      "yard": "normal",
+      "shed": "normal",
+      "trucks": "normal"
+    }
+  }
+]

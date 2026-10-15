@@ -1,0 +1,213 @@
+﻿Date,Port,At_Berth,At_Anchorage,Waiting_Ratio,Remark,Source_File
+2026-07-03,Chennai,9.0,2.0,0.18181818181818182,2 Crude Oil Tankers Waiting for Agent Confirmation,page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Cochin,6.0,0.0,0.0,,page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Deendayal,19.0,35.0,0.6481481481481481,"Ready-29, Not Ready-6",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Haldia Dock Complex,8.0,16.0,0.6666666666666666,"To Berth on Date-5, Programmed to berth on date-1, Non Port-10",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,J.N.P.A,12.0,3.0,0.2,Waiting for berth -3,page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Kamarajar,3.0,8.0,0.7272727272727273,"Awaiting berth-3, Awaiting receiver readiness-4, Mv amethyst ace_Re-anchored-1",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Kolkata Dock System,7.0,0.0,0.0,,page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Mormugao,6.0,2.0,0.25,Waiting for dedicated berth-2,page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Mumbai,16.0,0.0,0.0,,page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,New Mangalore,9.0,8.0,0.47058823529411764,"Receiver not Ready-6, Shipper not Ready-1, Want of Berth-1",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Paradip,21.0,20.0,0.4878048780487805,"Vessel Ready-13, Vessel Not Ready-7",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,V.O.Chidambaranar,11.0,4.0,0.26666666666666666,"Shifted to OR-1, Not Ready-1, Ready-2",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-03,Visakhapatnam,21.0,14.0,0.4,"Receivers not ready due to documents not submitted -8, Shippers not ready due to documents not submitted -3, Berthing today at OR2-1, Berthing today at OR3-1, Berthing today at SPM-1",page-pdf-file20260706165727111869341783337248.pdf
+2026-07-07,Chennai,6.0,2.0,0.25,2 Crude Oil Tankers Waiting for Agent Confirmation.,page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Cochin,1.0,0.0,0.0,,page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Deendayal,21.0,38.0,0.6440677966101694,"Ready-21, Not Ready-17",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Haldia Dock Complex,9.0,10.0,0.5263157894736842,"To Berth on Date-2, Non Port-8",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,J.N.P.A,13.0,3.0,0.1875,Waiting for berth -3,page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Kamarajar,6.0,5.0,0.45454545454545453,"Awaiting berth-3, Awaiting receiver readiness-2",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Kolkata Dock System,9.0,0.0,0.0,,page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Mormugao,3.0,2.0,0.4,Waiting for dedicated coal berth-2,page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Mumbai,16.0,0.0,0.0,,page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,New Mangalore,11.0,10.0,0.47619047619047616,"Receiver not Ready-7, Shipper not Ready-1, Want of Berth-1, Non-Window Vessel-1",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Paradip,16.0,34.0,0.68,"Vessel Ready-16, Vessel Not Ready-18",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,V.O.Chidambaranar,13.0,8.0,0.38095238095238093,"Ready-5, Not Ready-2, Shifted to OR-1",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-07,Visakhapatnam,21.0,16.0,0.43243243243243246,"Berthing today at EQ9-1, Berthing today at FB-1, Berthing today at OR3-1, Movement suspend due to heavy wind- 1, Receivers not ready due to documents not submitted -10, Shippers not ready due to documents not submitted -2",page-pdf-file20260707161053921470231783420853.pdf
+2026-07-08,Chennai,5.0,2.0,0.2857142857142857,1Crude Oil Tanker and 1 Container Vessel Waiting for Agent Confirmation,page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Cochin,2.0,0.0,0.0,,page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Deendayal,21.0,42.0,0.6666666666666666,"Ready-26, Not Ready-16",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Haldia Dock Complex,3.0,11.0,0.7857142857142857,"To Berth on Date-4, Programmed to berth on date-1, Non Port-6",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,J.N.P.A,16.0,5.0,0.23809523809523808,Waiting for berth -5,page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Kamarajar,5.0,5.0,0.5,"Awaiting berth-3, Awaiting receiver readiness-2",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Kolkata Dock System,6.0,0.0,0.0,,page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Mormugao,4.0,2.0,0.3333333333333333,Waiting for dedicated coal berth-2,page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Mumbai,18.0,3.0,0.14285714285714285,Awaiting Enrollment-3,page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,New Mangalore,7.0,10.0,0.5882352941176471,"Receiver not Ready-5, Shipper not Ready-2, Want of Berth-2, Non-Window Vessel-1",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Paradip,18.0,31.0,0.6326530612244898,"Vessel Ready-12, Vessel Not Ready-19",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,V.O.Chidambaranar,17.0,5.0,0.22727272727272727,"Ready-2, Not Ready-2, Shifted to OR-1",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-08,Visakhapatnam,24.0,15.0,0.38461538461538464,"Receivers not ready due to documents not submitted -10, Shippers not ready due to documents not submitted -3, Berthing today at OR2-1, Berthing today at SPM-1",page-pdf-file20260708174433759259691783512874.pdf
+2026-07-09,Chennai,5.0,2.0,0.2857142857142857,1Crude Oil Tanker and 1 Container Vessel Waiting for Agent Confirmation.,page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Cochin,4.0,2.0,0.3333333333333333,Berth Occupied-2,page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Deendayal,20.0,36.0,0.6428571428571429,"Ready-24, Not Ready-12",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Haldia Dock Complex,5.0,12.0,0.7058823529411765,"To Berth on Date-3, Non Port-9",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,J.N.P.A,14.0,3.0,0.17647058823529413,Waiting for berth -3,page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Kamarajar,5.0,4.0,0.4444444444444444,"Awaiting berth-2, Awaiting receiver readiness-2",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Kolkata Dock System,5.0,0.0,0.0,,page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Mormugao,4.0,3.0,0.42857142857142855,Waiting for dedicated coal berth-3,page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Mumbai,16.0,3.0,0.15789473684210525,Awaiting Enrollment-3,page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,New Mangalore,9.0,7.0,0.4375,"Receiver not Ready-5, Shipper not Ready-1, Want of Berth-1",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Paradip,22.0,29.0,0.5686274509803921,"Vessel Ready-14, Vessel Not Ready-15",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,V.O.Chidambaranar,19.0,3.0,0.13636363636363635,"Ready-2, Shifted to OR-1",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-09,Visakhapatnam,19.0,12.0,0.3870967741935484,"Receivers not ready due to documents not submitted -8, Shippers not ready due to documents not submitted -2, Berthing today at EQ8-1, Berthing today at OR3-1",page-pdf-file20260709174029381985211783599029.pdf
+2026-07-10,Chennai,8.0,3.0,0.2727272727272727,3 Container Vessels Waiting for Agent Confirmation,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Cochin,5.0,1.0,0.16666666666666666,Berth Occupied-1,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Deendayal,21.0,31.0,0.5961538461538461,"Ready-22, Not Ready-9",page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Haldia Dock Complex,8.0,12.0,0.6,"To Berth on Date-1, Non Port-11",page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,J.N.P.A,12.0,5.0,0.29411764705882354,Waiting for berth -5,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Kamarajar,6.0,2.0,0.25,Awaiting receiver readiness-2,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Kolkata Dock System,6.0,0.0,0.0,,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Mormugao,3.0,2.0,0.4,Waiting for dedicated coal berth-2,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Mumbai,16.0,3.0,0.15789473684210525,Awaiting Enrollment-3,page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,New Mangalore,6.0,6.0,0.5,"Receiver not Ready-3, Shipper not Ready-1, Want of Berth-1, Vessel not Ready-1",page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Paradip,26.0,33.0,0.559322033898305,"Vessel Ready-16, Vessel Not Ready-17",page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,V.O.Chidambaranar,18.0,3.0,0.14285714285714285,"Not Ready-2, Shifted to OR-1",page-pdf-file20260710162053793712391783680654.pdf
+2026-07-10,Visakhapatnam,18.0,15.0,0.45454545454545453,"Receivers not ready due to documents not submitted-12, Shippers not ready due to documents not submitted -3",page-pdf-file20260710162053793712391783680654.pdf
+2026-07-13,Chennai,8.0,2.0,0.2,2 Container Vessels Waiting for Agent Confirmation,page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Cochin,5.0,4.0,0.4444444444444444,Berth Occupied-4,page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Deendayal,19.0,44.0,0.6984126984126984,"Ready-29, Not Ready-15",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Haldia Dock Complex,8.0,11.0,0.5789473684210527,"To Berth on Date-2, Programmed to berth on date-1, Non Port-8",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,J.N.P.A,14.0,2.0,0.125,Waiting for berth -2,page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Kamarajar,5.0,3.0,0.375,"Awaiting receiver readiness-2, Awaiting Berth-1",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Kolkata Dock System,4.0,2.0,0.3333333333333333,"BTR(Bore Tide Restriction)-1, LFT(Left for Tide)-1",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Mormugao,2.0,0.0,0.0,,page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Mumbai,16.0,0.0,0.0,,page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,New Mangalore,9.0,5.0,0.35714285714285715,"Receiver not Ready-3, Shipper not Ready-2",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Paradip,22.0,25.0,0.5319148936170213,"Vessel Ready-15, Vessel Not Ready-10",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,V.O.Chidambaranar,16.0,2.0,0.1111111111111111,"Shifted to OR-1, Not Ready-1",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-13,Visakhapatnam,15.0,14.0,0.4827586206896552,"Receivers not ready due to documents not submitted-9, Shippers not ready due to documents not submitted -3, Berthing today at SPM-1, Berthing today at WQ6- 1",page-pdf-file20260713175601426146671783945561.pdf
+2026-07-14,Chennai,8.0,1.0,0.1111111111111111,1 Container Vessel Waiting for Agent Confirmation.,page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Cochin,3.0,4.0,0.5714285714285714,"Berth Occupied-3, Agents option-1",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Deendayal,17.0,48.0,0.7384615384615385,"Ready-29, Not Ready-19",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Haldia Dock Complex,8.0,10.0,0.5555555555555556,"To Berth on Date-2, Programmed to berth on date-1, Non Port-7",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,J.N.P.A,10.0,4.0,0.2857142857142857,Waiting for berth -4,page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Kamarajar,5.0,3.0,0.375,"Awaiting Berth-1, Awaiting receiver readiness-2",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Kolkata Dock System,4.0,3.0,0.42857142857142855,"BTR(Bore Tide Restriction)-2, LFT(Left for Tide)-1",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Mormugao,3.0,0.0,0.0,,page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Mumbai,18.0,1.0,0.05263157894736842,Awaiting enrollment-1,page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,New Mangalore,5.0,5.0,0.5,"Receiver not Ready-2, Shipper not Ready-2, Want of Berth-1",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Paradip,24.0,21.0,0.4666666666666667,"Vessel Ready-9, Vessel Not Ready-12",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,V.O.Chidambaranar,12.0,5.0,0.29411764705882354,"Ready-3, Shifted to OR-1, Not Ready-1",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-14,Visakhapatnam,17.0,12.0,0.41379310344827586,"Receivers not ready due to documents not submitted-9, Shippers not ready due to documents not submitted -1, Berthing today at EQ3-1, Berthing today at WQ3-1",page-pdf-file20260714164238132294911784027558.pdf
+2026-07-16,Chennai,10.0,1.0,0.09090909090909091,1Break Bulk Vessel Waiting for Agent Confirmation,page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Cochin,4.0,1.0,0.2,Berth Occupied-1,page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Deendayal,19.0,51.0,0.7285714285714285,"Ready-33, Not Ready-18",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Haldia Dock Complex,8.0,11.0,0.5789473684210527,"To Berth on Date-4, Programmed to berth on date-1, Non Port-6",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,J.N.P.A,14.0,5.0,0.2631578947368421,Waiting for berth -5,page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Kamarajar,4.0,2.0,0.3333333333333333,"Awaiting Berth-1, Awaiting receiver readiness-1",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Kolkata Dock System,4.0,4.0,0.5,"BTR(Bore Tide Restriction)-2, LFT(Left for Tide)-2",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Mormugao,3.0,1.0,0.25,Waiting for dedicated berth-1,page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Mumbai,15.0,2.0,0.11764705882352941,Awaiting enrollment-2,page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,New Mangalore,8.0,7.0,0.4666666666666667,"Receiver not Ready-3, Shipper not Ready-2, Want of Berth-1, Non Cargo Vessel-1",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Paradip,20.0,23.0,0.5348837209302325,"Vessel Ready-13, Vessel Not Ready-10",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,V.O.Chidambaranar,13.0,5.0,0.2777777777777778,"Ready-2, Not Ready-2, Shifted to OR-1",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-16,Visakhapatnam,19.0,12.0,0.3870967741935484,"Receivers not ready due to documents not submitted-7, Shippers not ready due to documents not submitted -4, Berthing today at WQ8-1",page-pdf-file20260716175843512688801784204924.pdf
+2026-07-20,Chennai,10.0,0.0,0.0,,page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Cochin,5.0,2.0,0.2857142857142857,"Berth Occupied-1, Receiver's Option-1",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Deendayal,18.0,53.0,0.7464788732394366,"Ready-40, Not Ready-13",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Haldia Dock Complex,10.0,14.0,0.5833333333333334,"To Berth on Date-5, Non Port-9",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,J.N.P.A,13.0,2.0,0.13333333333333333,Waiting for berth -2,page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Kamarajar,4.0,3.0,0.42857142857142855,"Awaiting receiver readiness-2, Awaiting Berth-1",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Kolkata Dock System,11.0,1.0,0.08333333333333333,NSBV(No Suitable Berth Vacant)-1,page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Mormugao,2.0,3.0,0.6,Waiting for dedicated berth-3,page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Mumbai,15.0,0.0,0.0,,page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,New Mangalore,8.0,8.0,0.5,"Receiver not Ready-4, Want of Berth-4",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Paradip,22.0,29.0,0.5686274509803921,"Vessel Ready-16, Vessel Not Ready-13",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,V.O.Chidambaranar,13.0,7.0,0.35,"Not Ready-4, Ready-2, Shifted to OR-1",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-20,Visakhapatnam,17.0,13.0,0.43333333333333335,"Receivers not ready due to documents not submitted-7, Shippers not ready due to documents not submitted -5,Senior vessel working at berth- Berthing today at WQ 6-1",page-pdf-file20260720173327425589581784549007.pdf
+2026-07-22,Chennai,13.0,1.0,0.07142857142857142,1 Container vessel waiting for Agent Confirmation,page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Cochin,3.0,0.0,0.0,,page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Deendayal,19.0,44.0,0.6984126984126984,"Ready-31, Not Ready-13",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Haldia Dock Complex,11.0,18.0,0.6206896551724138,"To Berth on Date-5, Non Port-12, Programmed to berth on date-1",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,J.N.P.A,16.0,2.0,0.1111111111111111,Waiting for berth -2,page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Kamarajar,4.0,5.0,0.5555555555555556,"Awaiting receiver readiness-3, Awaiting Berth-2",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Kolkata Dock System,13.0,1.0,0.07142857142857142,NPD(Neaped)-1,page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Mormugao,3.0,3.0,0.5,"Waiting for dedicated berth-1, Waiting for dedicated coal berth-2",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Mumbai,21.0,0.0,0.0,,page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,New Mangalore,10.0,7.0,0.4117647058823529,"Receiver not Ready-3, Want of Berth-2, Shipper not Ready-1, Non-Cargo Vessel -1",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Paradip,22.0,29.0,0.5686274509803921,"Vessel Ready-15, Vessel Not Ready-14",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,V.O.Chidambaranar,15.0,7.0,0.3181818181818182,"Not Ready-3, Ready-3, Shifted to OR-1",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-22,Visakhapatnam,22.0,14.0,0.3888888888888889,"Receivers not ready due to documents not submitted-8, Shippers not ready due to documents not submitted -5, Vessel shifted to roads on Agent request due to lack of ullage-1 LPG/C. SEARAMBLER ** - Re-anchored",page-pdf-file20260722162640797600441784717800.pdf
+2026-07-23,Chennai,10.0,1.0,0.09090909090909091,1 Crude Oil Tanker waiting for Agent Confirmation,page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Cochin,6.0,1.0,0.14285714285714285,Berth Occupied-1,page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Deendayal,20.0,44.0,0.6875,"Ready-30, Not Ready-14",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Haldia Dock Complex,13.0,15.0,0.5357142857142857,"To Berth on Date-4, Non Port-9, Programmed to berth on date-2",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,J.N.P.A,12.0,2.0,0.14285714285714285,Waiting for berth -2,page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Kamarajar,4.0,5.0,0.5555555555555556,"Awaiting receiver readiness-3, Awaiting Berth-2",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Kolkata Dock System,8.0,1.0,0.1111111111111111,NPD(Neaped)-1,page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Mormugao,3.0,3.0,0.5,"Waiting for dedicated berth-1, Waiting for dedicated coal berth-2",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Mumbai,21.0,2.0,0.08695652173913043,Awaiting Enrollment-2,page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,New Mangalore,11.0,7.0,0.3888888888888889,"Receiver not Ready-3, Want of Berth-2, Shipper not Ready-1, Non-Cargo Vessel -1",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Paradip,22.0,27.0,0.5510204081632653,"Vessel Ready-13, Vessel Not Ready-14",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,V.O.Chidambaranar,16.0,7.0,0.30434782608695654,"Not Ready-2, Berthing Today-4, Shifted to OR-1",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-23,Visakhapatnam,17.0,15.0,0.46875,"Receivers not ready due to documents not submitted-4, Shippers not ready due to documents not submitted -6, Berthing today at SPM-1, Berthing today at VGCB-1, Senior tanker working at berth- Berthing today at OR3-1, Senior vessel working at berth-Berthing today at WQ4-1, Vessel shifted to roads on Agent request due to lack of ullage-1 LPG/C. SEARAMBLER - Re-anchored",page-pdf-file20260723174202595538651784808723.pdf
+2026-07-24,Chennai,10.0,1.0,0.09090909090909091,1 Crude Oil Tanker waiting for Agent Confirmation,page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Cochin,3.0,0.0,0.0,,page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Deendayal,18.0,47.0,0.7230769230769231,"Ready-32, Not Ready-15",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Haldia Dock Complex,14.0,13.0,0.48148148148148145,"To Berth on Date-3, Non Port-10",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,J.N.P.A,15.0,2.0,0.11764705882352941,Waiting for berth -2,page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Kamarajar,4.0,4.0,0.5,"Awaiting receiver readiness-2, Awaiting Berth-2",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Kolkata Dock System,8.0,3.0,0.2727272727272727,NPD(Neaped)-3,page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Mormugao,3.0,3.0,0.5,"Waiting for dedicated berth-1, Waiting for dedicated coal berth-2",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Mumbai,22.0,3.0,0.12,"Awaiting Enrollment-2, Waiting for a suitable berth-1",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,New Mangalore,10.0,10.0,0.5,"Receiver not Ready-5, Want of Berth-2, Shipper not Ready-2, Non-Cargo Vessel -1",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Paradip,24.0,35.0,0.5932203389830508,"Vessel Ready-19, Vessel Not Ready-16",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,V.O.Chidambaranar,21.0,4.0,0.16,"Shifted to OR-1, Not Ready-2, Ready-1",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-24,Visakhapatnam,18.0,11.0,0.3793103448275862,"Receivers not ready due to documents not submitted-3, Shippers not ready due to documents not submitted -4, Berthing today at CB3-1, Berthing today at EQ3- 1, Senior vessel working at berth- Berthing today at WQ4-1, (Vessel shifted to roads on Agent request due to lack of ullage-1 (LPG/C. SEARAMBLER -Re-anchored Vessels)",page-pdf-file20260724163932808428591784891372.pdf
+2026-07-29,Chennai,8.0,3.0,0.2727272727272727,2 Crude Oil Tankers and 1 Steel Cargo Vessel waiting for Agent Confirmation,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Cochin,6.0,,,,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Deendayal,19.0,49.0,0.7205882352941176,"Ready-34, Not Ready-15",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Haldia Dock Complex,5.0,21.0,0.8076923076923077,"To Berth on Date-6, Non Port-13, Programmed to Berth on Date-2",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Indian Port Association - Daily Vessels Position,,,,,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,J.N.P.A,11.0,3.0,0.21428571428571427,Waiting for Berth,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Kamarajar,6.0,2.0,0.25,Awaiting Receivers Readiness,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Kolkata Dock System,5.0,3.0,0.375,"Neaped-2, Not Required by Agent-1",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Mormugao,3.0,3.0,0.5,Waiting for Dedicated Coal Berth,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Mumbai,20.0,1.0,0.047619047619047616,Waiting for Nomination,page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,New Mangalore,7.0,5.0,0.4166666666666667,"Receiver not Ready-4, Non Window Vessel-1",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Paradip,20.0,34.0,0.6296296296296297,"Vessel Not Ready-16, Vessel Ready-18",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,V.O.Chidambaranar,18.0,4.0,0.18181818181818182,"Not Ready-2, Shifted to OR-1, Ready-1",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-29,Visakhapatnam,17.0,17.0,0.5,"Berthing today at EQ9-1, Berthing today at OB2-1, Receivers not ready and also documents not submitted-5, Receivers not ready due to lack of ullage and also documents not submitted-5, Shipppers not ready and also documents not submitted-3, Vessel shifted to roads on Agent request due to lack of ullage-1, Waiting for Daughter tanker-1",page-pdf-file20260729173122604298721785326483.pdf
+2026-07-31,Chennai,14.0,2.0,0.125,1 Crude Oil and 1 Container Vessel waiting for Agent Confirmation.,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Cochin,3.0,2.0,0.4,Berth Occupied-2,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Deendayal,18.0,51.0,0.7391304347826086,"Ready-30, Not Ready-21",page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Haldia Dock Complex,9.0,15.0,0.625,"To Berth on Date-4, Non Port-10, Programmed to Berth on Date-1",page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Indian Port Association - Daily Vessels Position,,,,,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,J.N.P.A,14.0,4.0,0.2222222222222222,Waiting for Berth-4,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Kamarajar,3.0,1.0,0.25,Awaiting Receivers Readiness-1,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Kolkata Dock System,7.0,3.0,0.3,"Neaped-1, Not Required by Agent-1, Engine Breakdown-1",page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Mormugao,4.0,2.0,0.3333333333333333,Waiting for Dedicated Coal Berth-2,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Mumbai,15.0,2.0,0.11764705882352941,Awaiting Enrollment-2,page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,New Mangalore,6.0,5.0,0.45454545454545453,"Receiver not Ready-4, Non Window Vessel-1",page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Paradip,19.0,38.0,0.6666666666666666,"Vessel Not Ready-19, Vessel Ready-19",page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,V.O.Chidambaranar,18.0,2.0,0.1,"Shifted to OR-1, Ready-1",page-pdf-file20260731172153994335571785498713.pdf
+2026-07-31,Visakhapatnam,14.0,11.0,0.44,"Receivers not ready and also documents not submitted-2, Receivers not ready due to documents not submitted.-1, Receivers not ready due to lack of ullage and also documents not submitted.-3, Senior tanker working at berth- Berthing today at OR2-1, Shipppers not ready and also documents not submitted-2, Vessel shifted to roads on Agent request due to lack of ullage-1, Waiting for Daughter tanker-1",page-pdf-file20260731172153994335571785498713.pdf
+2026-08-06,Chennai,9.0,3.0,0.25,"1 Crude Oil, 1 POL, and 1 Naphtha Tanker waiting for Agent Confirmation",page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Cochin,5.0,3.0,0.375,Berth Occupied,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Deendayal,19.0,53.0,0.7361111111111112,"Ready-32, Not Ready-21",page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Haldia Dock Complex,10.0,17.0,0.6296296296296297,"To Berth on Date-5, Non Port-12",page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Indian Port Association - Daily Vessels Position,,,,,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,J.N.P.A,17.0,3.0,0.15,Waiting for Berth,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Kamarajar,6.0,5.0,0.45454545454545453,"Awaiting Receivers Readiness-2, Awaiting Berth-3",page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Kolkata Dock System,8.0,1.0,0.1111111111111111,NRA,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Mormugao,3.0,2.0,0.4,Waiting for Dedicated Coal Berth,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Mumbai,14.0,1.0,0.06666666666666667,Waiting for Nomination,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,New Mangalore,4.0,3.0,0.42857142857142855,Receiver not Ready-3,page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Paradip,22.0,27.0,0.5510204081632653,"Vessel Not Ready-13, Vessel Ready-14",page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,V.O.Chidambaranar,16.0,5.0,0.23809523809523808,"Not Ready-2, Shifted to OR-2, Ready-1",page-pdf-file20260806164300740649321786014781.pdf
+2026-08-06,Visakhapatnam,14.0,10.0,0.4166666666666667,"Receivers not ready due to documents not submitted-3, NOC not given by Therminal [VCTPL]-1, Receivers not ready due to lack of ullage and also documents not submitted-2, Vessel shifted to roads on Agent request due to lack of ullage-1, Shippers not ready and also documents not submitted-3",page-pdf-file20260806164300740649321786014781.pdf
+,Chennai,8.0,1.0,0.1111111111111111,1 Container Vessel waiting for Agent Confirmation.,page-pdf-file20260803171548803411401785757548.pdf
+,Cochin,3.0,4.0,0.5714285714285714,"Berth Occupied-3, Receiver's Option-1",page-pdf-file20260803171548803411401785757548.pdf
+,Deendayal,15.0,47.0,0.7580645161290323,"Ready-26, Not Ready-21",page-pdf-file20260803171548803411401785757548.pdf
+,Haldia Dock Complex,8.0,16.0,0.6666666666666666,"To Berth on Date-3, Non Port-13",page-pdf-file20260803171548803411401785757548.pdf
+,Indian Port Association - Daily Vessels Position,,,,,page-pdf-file20260803171548803411401785757548.pdf
+,J.N.P.A,14.0,3.0,0.17647058823529413,Waiting for Berth-3,page-pdf-file20260803171548803411401785757548.pdf
+,Kamarajar,4.0,4.0,0.5,"Awaiting Receivers Readiness-2, Awaiting Berth-2",page-pdf-file20260803171548803411401785757548.pdf
+,Kolkata Dock System,8.0,1.0,0.1111111111111111,Not Required by Agent-1,page-pdf-file20260803171548803411401785757548.pdf
+,Mormugao,3.0,1.0,0.25,Waiting for Dedicated Coal Berth-1,page-pdf-file20260803171548803411401785757548.pdf
+,Mumbai,11.0,1.0,0.08333333333333333,Awaiting Enrollment-1,page-pdf-file20260803171548803411401785757548.pdf
+,New Mangalore,6.0,6.0,0.5,Receiver not Ready-6,page-pdf-file20260803171548803411401785757548.pdf
+,Paradip,24.0,31.0,0.5636363636363636,"Vessel Not Ready-17, Vessel Ready-14",page-pdf-file20260803171548803411401785757548.pdf
+,V.O.Chidambaranar,16.0,6.0,0.2727272727272727,"Shifted to OR-4, Ready-1, Not Ready-1",page-pdf-file20260803171548803411401785757548.pdf
+,Visakhapatnam,15.0,8.0,0.34782608695652173,"Receivers not ready and also documents not submitted-1, Receivers not ready due to documents not submitted.-1, Receivers not ready due to lack of ullage and also documents not submitted.-1, Senior tanker working at berth- Berthing today at OR3-1, Senior vessel working at berth- Berthing today at CB3-1, Senior vessel working at berth- Berthing today at FB-1, Shippers not ready and also documents not submitted-1, Vessel shifted to roads on Agent request due to lack of ullage-1. Note-(M.T SWARNA KALASH and LPG/C. SEARAMBLER)-Re-anchored Vessels",page-pdf-file20260803171548803411401785757548.pdf

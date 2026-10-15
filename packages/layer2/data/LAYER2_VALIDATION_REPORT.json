@@ -1,0 +1,450 @@
+{
+  "layer": "layer2-canonical",
+  "generatedAt": "2026-08-23T03:37:45.349Z",
+  "checklistMapping": "36-point ML checklist adapted to canonical data layer; ML-only items marked N/A",
+  "counts": {
+    "passed": 40,
+    "failed": 0,
+    "errors": 0,
+    "na": 22,
+    "total": 62
+  },
+  "decision": "READY FOR DEPLOYMENT",
+  "decisionNote": "Canonical store is safe for Decision layer to consume. This is NOT an ML deployment verdict.",
+  "results": [
+    {
+      "id": "1.1",
+      "section": "1. Environment & project",
+      "name": "Verified data root exists",
+      "status": "PASSED",
+      "detail": "C:\\SIH\\data accurate\\01-verified"
+    },
+    {
+      "id": "1.2",
+      "section": "1. Environment & project",
+      "name": "Required seed sources",
+      "status": "PASSED",
+      "detail": "4 core files present"
+    },
+    {
+      "id": "1.3",
+      "section": "1. Environment & project",
+      "name": "End-to-end seed from scratch",
+      "status": "PASSED",
+      "detail": "Wrote snapshot with 40 facts"
+    },
+    {
+      "id": "1.4",
+      "section": "1. Environment & project",
+      "name": "Relative repo paths",
+      "status": "PASSED",
+      "detail": "Seed uses join(repoRoot, 'data accurate', '01-verified') — no user-home hardcodes in L2 seed"
+    },
+    {
+      "id": "1.5",
+      "section": "1. Environment & project",
+      "name": "Imports / TypeScript modules",
+      "status": "PASSED",
+      "detail": "seed + services imported successfully"
+    },
+    {
+      "id": "1.6",
+      "section": "1. Environment & project",
+      "name": "Python packages / requirements.txt",
+      "status": "N/A",
+      "detail": "Layer 2 is TypeScript — Python ML env is Decision layer"
+    },
+    {
+      "id": "2.1",
+      "section": "2. Data loading",
+      "name": "Non-empty snapshot",
+      "status": "PASSED",
+      "detail": "40 facts"
+    },
+    {
+      "id": "2.2",
+      "section": "2. Data loading",
+      "name": "Registry sizes",
+      "status": "PASSED",
+      "detail": "7 ports, 6 carriers"
+    },
+    {
+      "id": "2.3",
+      "section": "2. Data loading",
+      "name": "Expected fact kinds",
+      "status": "PASSED",
+      "detail": "tariff, dwell_monthly, dwell_snapshot, trt, fx"
+    },
+    {
+      "id": "2.4",
+      "section": "2. Data loading",
+      "name": "Schema version",
+      "status": "PASSED",
+      "detail": "schemaVersion=1"
+    },
+    {
+      "id": "3.1",
+      "section": "3. Missing value testing",
+      "name": "Required fields finite",
+      "status": "PASSED",
+      "detail": "No null/NaN/Inf in required numeric fields"
+    },
+    {
+      "id": "3.2",
+      "section": "3. Missing value testing",
+      "name": "Dwell rows have metrics",
+      "status": "PASSED",
+      "detail": "All monthly rows have import or export"
+    },
+    {
+      "id": "4.1",
+      "section": "4. Duplicate data testing",
+      "name": "Unique factIds",
+      "status": "PASSED",
+      "detail": "40 unique facts"
+    },
+    {
+      "id": "4.2",
+      "section": "4. Duplicate data testing",
+      "name": "Unique port IDs",
+      "status": "PASSED",
+      "detail": "7 ports"
+    },
+    {
+      "id": "4.3",
+      "section": "4. Duplicate data testing",
+      "name": "One active tariff key",
+      "status": "PASSED",
+      "detail": "No soft-duplicate tariff keys"
+    },
+    {
+      "id": "4.4",
+      "section": "4. Duplicate data testing",
+      "name": "Train/test duplicate leakage",
+      "status": "N/A",
+      "detail": "No ML split in Layer 2 — enforce when Decision layer builds train/test from events CSV"
+    },
+    {
+      "id": "5.1",
+      "section": "5. Data type validation",
+      "name": "Fact field types",
+      "status": "PASSED",
+      "detail": "Envelope + kind-specific types OK"
+    },
+    {
+      "id": "5.2",
+      "section": "5. Data type validation",
+      "name": "IDs not used as numeric features",
+      "status": "PASSED",
+      "detail": "PortId/CarrierId are string enums — not cast to numbers in L2"
+    },
+    {
+      "id": "6.1",
+      "section": "6. Range and validity",
+      "name": "Realistic ranges",
+      "status": "PASSED",
+      "detail": "Rates, dwell, TRT, FX within expected bounds"
+    },
+    {
+      "id": "6.2",
+      "section": "6. Range and validity",
+      "name": "Mundra ≠ Deendayal TRT",
+      "status": "PASSED",
+      "detail": "No TRT on private Mundra; Deendayal separate"
+    },
+    {
+      "id": "6.3",
+      "section": "6. Range and validity",
+      "name": "Deendayal TRT 54.24h",
+      "status": "PASSED",
+      "detail": "Correct major-port attribution"
+    },
+    {
+      "id": "7.1",
+      "section": "7. Outlier testing",
+      "name": "IQR outlier scan (JNPT export dwell)",
+      "status": "PASSED",
+      "detail": "n=21, outliers=0, bounds=[66.7, 84.7], samples=[] — retained (published series; not auto-removed)"
+    },
+    {
+      "id": "7.2",
+      "section": "7. Outlier testing",
+      "name": "Model w/ vs w/o outlier treatment",
+      "status": "N/A",
+      "detail": "ML comparison belongs on Decision/ML layer using events CSV"
+    },
+    {
+      "id": "8.1",
+      "section": "8. Target variable testing",
+      "name": "Classification/regression target",
+      "status": "N/A",
+      "detail": "Layer 2 has no prediction target. Dwell hours are facts, not ŷ. Target tests → Decision/ML layer (dwell_hours)."
+    },
+    {
+      "id": "9.1",
+      "section": "9. Data leakage testing",
+      "name": "Reject non-approved ingestion",
+      "status": "PASSED",
+      "detail": "REJECTED batch blocked"
+    },
+    {
+      "id": "9.2",
+      "section": "9. Data leakage testing",
+      "name": "No live-telemetry claim",
+      "status": "PASSED",
+      "detail": "Bootstrap from data accurate/01-verified. Published sources only — not live AIS/telemetry."
+    },
+    {
+      "id": "9.3",
+      "section": "9. Data leakage testing",
+      "name": "Scaler/encoder fit on train only",
+      "status": "N/A",
+      "detail": "No sklearn pipeline in L2 — enforce in ML layer"
+    },
+    {
+      "id": "10.1",
+      "section": "10. Train-test split",
+      "name": "X_train / X_test shapes",
+      "status": "N/A",
+      "detail": "N/A for canonical store. Decision/ML must print shapes and use temporal H1/H2 split for JNPA events."
+    },
+    {
+      "id": "11.1",
+      "section": "11. Query / acceptance pipeline",
+      "name": "Tariff query",
+      "status": "PASSED",
+      "detail": "Maersk freeDays=7, slabs=3"
+    },
+    {
+      "id": "11.2",
+      "section": "11. Query / acceptance pipeline",
+      "name": "Dwell series query",
+      "status": "PASSED",
+      "detail": "21 JNPT months"
+    },
+    {
+      "id": "11.3",
+      "section": "11. Query / acceptance pipeline",
+      "name": "FX query",
+      "status": "PASSED",
+      "detail": "USDINR=95.43"
+    },
+    {
+      "id": "11.4",
+      "section": "11. Query / acceptance pipeline",
+      "name": "Single entity lookup",
+      "status": "PASSED",
+      "detail": "getPort(INNSA) OK"
+    },
+    {
+      "id": "11.5",
+      "section": "11. Query / acceptance pipeline",
+      "name": "getLatestExportDwellHours",
+      "status": "PASSED",
+      "detail": "78.6h from dwell_monthly (2026-06)"
+    },
+    {
+      "id": "11.6",
+      "section": "11. Query / acceptance pipeline",
+      "name": "requireTariff",
+      "status": "PASSED",
+      "detail": "returns tariff"
+    },
+    {
+      "id": "12.1",
+      "section": "12. Feature/fact testing",
+      "name": "Fact inventory",
+      "status": "PASSED",
+      "detail": "{\"tariff\":7,\"dwell_monthly\":21,\"dwell_snapshot\":5,\"trt\":6,\"fx\":1}"
+    },
+    {
+      "id": "12.2",
+      "section": "12. Feature/fact testing",
+      "name": "NLDSL snapshot coverage",
+      "status": "PASSED",
+      "detail": "5 ports — single-month facts (expected; not near-zero-variance bug)"
+    },
+    {
+      "id": "12.3",
+      "section": "12. Feature/fact testing",
+      "name": "Model feature importance",
+      "status": "N/A",
+      "detail": "Decision/ML layer"
+    },
+    {
+      "id": "13.1",
+      "section": "13. Baseline model",
+      "name": "Baseline model",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "14.1",
+      "section": "14. Multiple model comparison",
+      "name": "Multiple model comparison",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "15.1",
+      "section": "15. Cross-validation",
+      "name": "Cross-validation",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "16.1",
+      "section": "16. Overfitting / underfitting",
+      "name": "Overfitting / underfitting",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "17.1",
+      "section": "17. Classification metrics",
+      "name": "Classification metrics",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "18.1",
+      "section": "18. Regression metrics",
+      "name": "Regression metrics",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "19.1",
+      "section": "19. Confusion matrix / error analysis",
+      "name": "Confusion matrix / error analysis",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "20.1",
+      "section": "20. Feature importance (model)",
+      "name": "Feature importance (model)",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "21.1",
+      "section": "21. Hyperparameter tuning",
+      "name": "Hyperparameter tuning",
+      "status": "N/A",
+      "detail": "ML-only — implement in Decision/ML layer consuming CanonicalDataService + events CSV"
+    },
+    {
+      "id": "22.1",
+      "section": "22. Robustness",
+      "name": "asOf query stability",
+      "status": "PASSED",
+      "detail": "Future asOf still returns latest eligible tariff"
+    },
+    {
+      "id": "22.2",
+      "section": "22. Robustness",
+      "name": "Missing tariff returns undefined",
+      "status": "PASSED",
+      "detail": "ZIM export not seeded — no crash"
+    },
+    {
+      "id": "23.1",
+      "section": "23. Edge cases",
+      "name": "Unknown port error",
+      "status": "PASSED",
+      "detail": "CanonicalNotFoundError thrown"
+    },
+    {
+      "id": "23.2",
+      "section": "23. Edge cases",
+      "name": "Empty period filter",
+      "status": "PASSED",
+      "detail": "Returns [] without crash"
+    },
+    {
+      "id": "24.1",
+      "section": "24. Single query workflow (user path)",
+      "name": "≥10 realistic lookups",
+      "status": "PASSED",
+      "detail": "6 tariffs + 6 port dwell lookups OK"
+    },
+    {
+      "id": "25.1",
+      "section": "25. New data testing",
+      "name": "External holdout dataset",
+      "status": "N/A",
+      "detail": "Decision/ML layer (post-2023 events if obtained)"
+    },
+    {
+      "id": "26.1",
+      "section": "26. Data drift",
+      "name": "Feature distribution drift",
+      "status": "N/A",
+      "detail": "Monitor when new L1 batches land; compare to snapshot stats"
+    },
+    {
+      "id": "27.1",
+      "section": "27. Bias / fairness",
+      "name": "Group fairness",
+      "status": "N/A",
+      "detail": "If Decision layer segments MSME vs large shippers — test there"
+    },
+    {
+      "id": "28.1",
+      "section": "28. Model stability",
+      "name": "Multi-seed training",
+      "status": "N/A",
+      "detail": "ML-only"
+    },
+    {
+      "id": "29.1",
+      "section": "29. Reproducibility",
+      "name": "Seed twice → identical facts",
+      "status": "PASSED",
+      "detail": "sha256=6b986dc856b6f78e…"
+    },
+    {
+      "id": "30.1",
+      "section": "30. Snapshot save and load",
+      "name": "Save → load → same query",
+      "status": "PASSED",
+      "detail": "facts=40, FX=95.43"
+    },
+    {
+      "id": "31.1",
+      "section": "31. Performance",
+      "name": "Seed + query latency",
+      "status": "PASSED",
+      "detail": "seed=3ms, 1-query=0.00ms, 100-query=0.3ms"
+    },
+    {
+      "id": "32.1",
+      "section": "32. Input validation",
+      "name": "Invalid FX payload skipped",
+      "status": "PASSED",
+      "detail": "bad rate skipped; good rate accepted"
+    },
+    {
+      "id": "33.1",
+      "section": "33. API / app integration",
+      "name": "HTTP/frontend wiring",
+      "status": "N/A",
+      "detail": "Next: wire port-sense to CanonicalDataService — not yet in L2 scope"
+    },
+    {
+      "id": "34.1",
+      "section": "34. Final holdout",
+      "name": "Untouched ML holdout",
+      "status": "N/A",
+      "detail": "Decision/ML: keep post-tune holdout (e.g. later months) separate from H1/H2 backtest"
+    },
+    {
+      "id": "35.1",
+      "section": "35. Automated test suite",
+      "name": "This runner is the automated suite",
+      "status": "PASSED",
+      "detail": "npm run validate → 61 checks; report written to data/"
+    }
+  ]
+}

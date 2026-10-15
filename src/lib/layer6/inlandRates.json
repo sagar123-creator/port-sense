@@ -1,0 +1,890 @@
+{
+  "version": 1,
+  "status": "pending_data",
+  "source": null,
+  "sourceUrl": null,
+  "unit": "INR per container",
+  "honestyNote": "Fill costInrPerContainer (and optional km / transitHours) when you have transporter or rail quotes. Null stays pending — never invented.",
+  "legs": [
+    {
+      "fromCityId": "surat",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "surat",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "visakhapatnam",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "hyderabad",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "navi-mumbai",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "pune",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "chennai",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "bengaluru",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kochi",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "coimbatore",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "kolkata",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "jnpt",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "jnpt",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "chennai",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "chennai",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "cochin",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "cochin",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "vizag",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "vizag",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "kolkata",
+      "mode": "road",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    },
+    {
+      "fromCityId": "ahmedabad",
+      "toPortId": "kolkata",
+      "mode": "rail",
+      "km": null,
+      "costInrPerContainer": null,
+      "transitHours": null
+    }
+  ]
+}

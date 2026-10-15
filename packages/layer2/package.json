@@ -1,0 +1,33 @@
+{
+  "name": "@port-sense/layer2-canonical",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./seed": {
+      "types": "./dist/seed.d.ts",
+      "import": "./dist/seed.js",
+      "default": "./dist/seed.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "seed": "npx --yes tsx scripts/seed.ts",
+    "query:demo": "npx --yes tsx scripts/query-demo.ts",
+    "validate": "npx --yes tsx scripts/validate-full.ts",
+    "validate:access": "npx --yes tsx scripts/validate-access.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

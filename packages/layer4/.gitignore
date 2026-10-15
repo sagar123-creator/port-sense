@@ -1,0 +1,4 @@
+node_modules/
+# dist committed for Vercel deploys
+data/
+*.log

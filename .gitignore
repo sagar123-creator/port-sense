@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# local monorepo junctions (created by setup / agent)
+/vendor
+
+# layer package installs (source is committed; dist is built by `npm run layers:build`)
+/packages/*/node_modules
+/packages/*/dist
+/packages/*/.turbo
+
+# DWM warehouse database (built by `npm run dwm:seed` / auto-seeded on first request)
+/data/warehouse.sqlite
+/data/warehouse.sqlite-*
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/port-sense/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
